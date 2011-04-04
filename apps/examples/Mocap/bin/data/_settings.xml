@@ -1,7 +1,7 @@
 <controls>
     <SliderInt_Tilt_Angle>
         <name>Tilt Angle</name>
-        <value>25</value>
+        <value>24</value>
     </SliderInt_Tilt_Angle>
     <Toggle_Mirror_Mode>
         <name>Mirror Mode</name>

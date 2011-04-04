@@ -12,17 +12,32 @@
 int screen_width= 1024;
 int screen_height=768;
 
+int checkMouseDownCount = 0;
+int cornerCount = 0;
+const int MOUSE_CLICK_FRAME = 8;
+const int HAND_MODE_NORMAL = 0;
+const int HAND_MODE_MOVE = 1;
+const int HAND_MODE_CLICK = 2;
+const int HAND_MODE_DRAG = 3;
+const int POSITION_HISTORY_SIZE = 4;
+const int JESTURE_FIRE_BUFFER = 20;
+
+
 void HandJesture::setup() {
+    soundClick.loadSound("sound/16582__tedthetrumpet__kettleswitch1.aif");
+    soundClick.setVolume(100);
 	ofSetLogLevel(0);
 	ofLog(OF_LOG_VERBOSE, "Start setup()");
-	
-	debug = true;
+    jestureFiredCount = 0;
+	toNormalModeCount = 0;
+    
+    debug = true;
 	showConfigUI = true;
 	mirror = true;
     showUserFeedback=true;
 	
 	// Setup Kinect
-	angle = -5;
+	angle = 10;
 	//kinect.init(true);  //shows infrared image
 	kinect.init();
 	//kinect.setVerbose(true);
@@ -205,7 +220,7 @@ void HandJesture::update() {
 			// Apply lowpass filter
 			float x = centerX;
 			float y = centerY;
-			int cornerCount = contourFinder.blobs[i].nPts;
+			cornerCount = contourFinder.blobs[i].nPts;
 			
 			
 			float centroidX = 0;
@@ -221,7 +236,7 @@ void HandJesture::update() {
 			
             /*Contour finder to find and update the location of the hands*/
 			if (hands.size() == 0) {
-				Hand *hand = new Hand(true, displayWidth, displayHeight);
+                Hand *hand = new Hand(true, displayWidth, displayHeight);
 				hand->setIsActive(true);
 				hand->update(ofPoint(x, y), cornerCount, ofPoint(x, y));
 				hands.push_back(hand);
@@ -369,6 +384,10 @@ void HandJesture::draw() {
 			centroidX = centroidX/addCount;
 			centroidY = centroidY/addCount;
 			ofCircle(centroidX, centroidY, 50);
+            /*Gets a boolean value that indicates whether the hand has been made into a fist "clicked"*/
+           HandJesture::checkClick(cornerCount);
+
+            /*For test purposes only - print the location of the the X and Y location of each hand*/
             printf("Hand Location X: %f Y: %f \n", centroidX,centroidY);
             ofPopMatrix();
         }
@@ -458,6 +477,62 @@ void HandJesture::keyPressed (int key)
 			kinect.setCameraTiltAngle(angle);
 			break;
 	}
+}
+
+/*Checks to see if the hand has been clicked*/
+void HandJesture::checkClick(int cornerCount) {
+	cornerCountHistory.push_back(cornerCount);
+	if (cornerCountHistory.size() > 6) {
+		cornerCountHistory.erase(cornerCountHistory.begin());
+	} else {
+		return;
+	}
+    
+	int oldCornerNums = 0;
+	int cornerNums = 0;
+	for (int i=0; i<cornerCountHistory.size(); i++) {
+		if (i < 4) {
+			oldCornerNums += cornerCountHistory[i];
+		} else {
+			cornerNums += cornerCountHistory[i];
+		}
+	}
+	oldCornerNums = oldCornerNums/4;
+	cornerNums = cornerNums/2;
+    
+	
+	if (handMode == HAND_MODE_NORMAL && cornerNums + 150 < oldCornerNums) {
+		// mouse down
+		currentCornerNums = cornerNums;
+        printf("\n MOUSE DOWN \n \n");
+		handMode = HAND_MODE_CLICK;
+		checkMouseDownCount = 0;
+		return;
+	}
+	if (cornerNums > currentCornerNums + 150) {
+		if (handMode == HAND_MODE_DRAG) {
+			//fireMouseUp();
+             printf("\n MOUSE UP \n \n");
+			soundClick.play();
+			handMode = HAND_MODE_NORMAL;
+			return;
+		} else if (handMode == HAND_MODE_CLICK) {
+			//fireMouseClick();
+			soundClick.play();
+			handMode = HAND_MODE_NORMAL;
+			return;
+		}
+	}
+	if (handMode == HAND_MODE_CLICK) {
+		checkMouseDownCount++;
+		if (checkMouseDownCount > MOUSE_CLICK_FRAME) {
+			handMode = HAND_MODE_DRAG;
+             printf("\n MOUSE DOWN \n \n");
+			soundClick.play();
+			checkMouseDownCount = 0;
+		}
+	}
+	return;
 }
 
 //--------------------------------------------------------------

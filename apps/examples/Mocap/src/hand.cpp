@@ -20,7 +20,6 @@ const int JESTURE_FIRE_BUFFER = 20;
 
 
 Hand::Hand(bool isPrimary, int dispWidth, int dispHeight) {
-	
 	isPrimary = isPrimary;
 	isActive = false;
 	displayHeight = dispHeight;
@@ -33,7 +32,6 @@ Hand::Hand(bool isPrimary, int dispWidth, int dispHeight) {
 	previousFrameCount = ofGetFrameNum();
 	isSuspendEvent = false;
 	
-	mouseDownCount = 0;
 	
 	soundClick.loadSound("sound/16582__tedthetrumpet__kettleswitch1.aif");
 	soundClick.setVolume(100);
@@ -87,12 +85,11 @@ void Hand::unRegister() {
 }
 
 /*returns the point to move the mouse cursor*/
-//rawr rawr rawr test
 CGPoint Hand::calcMousePosition() {
 	float x = currentPos.x;
 	float y = currentPos.y;
 		
-		x = max(0.0, x*100.0/640.0-15.0f);
+    x = max(0.0, x*100.0/640.0-15.0f);
 	x = min(x, 70.0f)/70*100;
 	y = max(0.0, y*100.0/480.0-10.0f);
 	y = min(y, 70.0f)/70*100;
@@ -117,36 +114,6 @@ bool Hand::checkSpeedMove() {
 		y += posHistory.at(j).y - posHistory.at(j+1).y;
 	}
 	
-	/*Mouse events for windows platform Safely Remove?*/
-	/*if (jestureFiredCount == 0) {
-		bool suspend = false;
-		if (x > 40) {
-			suspend = true;
-			ofLog(OF_LOG_VERBOSE, "SWIPE LEFT");
-			//CGEventRef keyEv = CGEventCreateKeyboardEvent(NULL, (CGKeyCode)123, true);
-			//CGEventPost (kCGHIDEventTap, keyEv);
-		} else if (x < -40) {
-			suspend = true;
-			CGEventRef keyEv = CGEventCreateKeyboardEvent(NULL, (CGKeyCode)124, true);
-			ofLog(OF_LOG_VERBOSE, "SWIPE RIGHT");
-			CGEventPost (kCGHIDEventTap, keyEv);
-		} else if (y > 30) {
-			ofLog(OF_LOG_VERBOSE, "SCROLL UP");
-			CGPoint pt = calcMousePosition();
-			CGEventRef wheelUpEv = CGEventCreateScrollWheelEvent (NULL,kCGScrollEventUnitPixel,1,60);
-			CGEventPost (kCGHIDEventTap, wheelUpEv);
-		} else if (y < -30){
-			ofLog(OF_LOG_VERBOSE, "SCROLL DOWN");
-			CGPoint pt = calcMousePosition();
-			CGEventRef wheelUpEv = CGEventCreateScrollWheelEvent (NULL,kCGScrollEventUnitPixel,1,-60);
-			CGEventPost (kCGHIDEventTap, wheelUpEv);
-		}
-		
-		if (suspend) {
-			jestureFiredCount = JESTURE_FIRE_BUFFER;
-		}
-	}*/
-	
 	
 	if (abs(x) + abs(y) > 12) {
 		handMode = HAND_MODE_MOVE;
@@ -167,6 +134,7 @@ bool Hand::checkSpeedMove() {
 	return false;
 }
 
+/*Checks to see if the hand has been clicked*/
 bool Hand::checkClick(int cornerCount) {
 	cornerCountHistory.push_back(cornerCount);
 	if (cornerCountHistory.size() > 6) {
@@ -227,17 +195,18 @@ void Hand::fireMouseMove() {
 
 }
 
+/*This is there the mouse clicked */
 void Hand::fireMouseDown() {
 	cout << "Mouse Down!!+++++++" << endl;
     //set mouseclick to true
-    handClicked = true;
+   // handClicked = true;
 
 }
 
 void Hand::fireMouseUp() {
 	cout << "Mouse Up!!-----------" << endl;
 	//set mouseclick to false;
-    handClicked=false;
+  //  handClicked=false;
 }
 
 void Hand::fireMouseDrag() {

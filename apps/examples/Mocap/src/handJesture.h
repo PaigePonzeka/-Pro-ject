@@ -31,8 +31,9 @@ public:
 	void mousePressed(int x, int y, int button);
 	void mouseReleased(int x, int y, int button);
 	void windowResized(int w, int h);
-	
-	void drawPointCloud();
+    
+	void checkClick(int cornerCount);
+    void drawPointCloud();
 	void drawHands();
 	void drawHandCircle();
     void drawShapes();
@@ -41,6 +42,7 @@ public:
 	void detectCorner();
 	void checkDepthUpdated();
 	
+    
 	// Kinect
 	ofxKinect kinect;
 	int angle;
@@ -67,6 +69,15 @@ public:
 	// for mouse controll
 	int					displayWidth;
 	int					displayHeight;
+    
+    // couner count use for click
+    int						handMode;
+	int						checkMouseDownCount;
+	int						toNormalModeCount;
+	int						jestureFiredCount;
+	int						currentCornerNums;
+	vector<int>				cornerCountHistory;
+
 	
 	// sounds
 	ofSoundPlayer		soundDetect;
@@ -83,6 +94,9 @@ public:
 	
 	// fonts
 	ofTrueTypeFont		msgFont;
+    
+    // sounds
+	ofSoundPlayer		soundClick;
 };
 
 #endif

@@ -19,7 +19,8 @@ public:
     Hand(bool isPrimary, int dispWidth, int dispHeight);
 
     ~Hand();
- 
+    //static bool hand_clicked_left;
+    //static bool hand_clicked_right;
     void update(ofPoint currentPoint, int cornerCount, ofPoint currentCentroid);
 
 	void setCentroid(ofPoint centroid);
@@ -29,7 +30,6 @@ public:
 	void unRegister();
 	ofPoint getPos(); 
 	bool getIsPrimary();
-    bool handClicked;
 
     bool dead;
 	
