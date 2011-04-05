@@ -7,12 +7,14 @@
 #include "ofxKinect.h"
 #include "ofxSimpleGuiToo.h"
 #include "hand.h"
+#include "shape.h"
 
 #include <iostream>
 #include <sstream>
 #include <stdio.h>
 #include <string.h>
 #include <vector>
+
 
 
 class HandJesture : public ofBaseApp
@@ -41,7 +43,9 @@ public:
 	void sendEvent(const std::string& event, const std::string& data);
 	void detectCorner();
 	void checkDepthUpdated();
+	void initShapeBoard();
 	
+	//static Shape* board[10];
     
 	// Kinect
 	ofxKinect kinect;

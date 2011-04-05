@@ -7,13 +7,19 @@
  zmq::socket_t socket (context, ZMQ_PUB);
  */
 //--------------------------------------------------------------
-
+Shape* Shape::board[10];
 //screen size
 int screen_width= 1024;
 int screen_height=768;
+float centroidX;//hand location
+float centroidY;
+float prev_x = 0.0f;//previous location for velocity calc
+float prev_y = 0.0f;
+float RGB[] = {0.0f,128.0f,255.0f};//limit color options
 
 int checkMouseDownCount = 0;
 int cornerCount = 0;
+
 const int MOUSE_CLICK_FRAME = 8;
 const int HAND_MODE_NORMAL = 0;
 const int HAND_MODE_MOVE = 1;
@@ -22,6 +28,19 @@ const int HAND_MODE_DRAG = 3;
 const int POSITION_HISTORY_SIZE = 4;
 const int JESTURE_FIRE_BUFFER = 20;
 
+const int SHAPE_SIZE_MAX = 200;//only used for rand()% expr so keep them ints
+const int SHAPE_SIZE_MIN = 30;
+
+
+void HandJesture::initShapeBoard(){
+	for(int i = 0; i<10 ; i++){
+		
+		Shape::board[i] = new Shape(float(rand()%screen_width),float(rand()%screen_height),		//random location 
+							 float(rand()%(SHAPE_SIZE_MIN-SHAPE_SIZE_MAX) + 1),				//random width 
+							 float(rand()%(SHAPE_SIZE_MIN-SHAPE_SIZE_MAX) + +1),			//random height
+							 RGB[rand()%3], RGB[rand()%3], RGB[rand()%3], float(rand()%255));//random color
+	}
+}
 
 void HandJesture::setup() {
     soundClick.loadSound("sound/16582__tedthetrumpet__kettleswitch1.aif");
@@ -30,8 +49,9 @@ void HandJesture::setup() {
 	ofLog(OF_LOG_VERBOSE, "Start setup()");
     jestureFiredCount = 0;
 	toNormalModeCount = 0;
+	
     
-    debug = true;
+    debug = false;
 	showConfigUI = true;
 	mirror = true;
     showUserFeedback=true;
@@ -49,6 +69,9 @@ void HandJesture::setup() {
 	ofSetFrameRate(30);
 	ofBackground(0, 0, 0);
 	ofSetWindowShape(800, 600);
+	
+	// For GAMEBOARD
+	HandJesture::initShapeBoard();
 	
 	// For images
 	grayImage.allocate(kinect.width, kinect.height);
@@ -105,6 +128,7 @@ void HandJesture::setup() {
 	gui.setDefaultKeys(true);
 	gui.loadFromXML();
 	gui.show();
+
     
 }
 
@@ -223,8 +247,8 @@ void HandJesture::update() {
 			cornerCount = contourFinder.blobs[i].nPts;
 			
 			
-			float centroidX = 0;
-			float centroidY = 0;
+			 centroidX = 0;
+			 centroidY = 0;
 			float addCount = 0;
 			for (int j = 0; j < contourFinder.blobs[i].nPts; j+=5){
 				addCount++;
@@ -307,9 +331,9 @@ void HandJesture::checkDepthUpdated(){
 
 
 
-//--------------------------------------------------------------
+//----------------------------------------------------------------------------------------------------------------
 void HandJesture::draw() {
-	
+
 	ofSetColor(255, 255, 255);
 	
 	if (showConfigUI ==true ) {
@@ -320,7 +344,7 @@ void HandJesture::draw() {
 		
 		ofPushMatrix();
 		ofTranslate(400, 300, 0);
-		glScalef(0.6, 0.6, 1.0f); 
+		glScalef(.6, .6, 1.0f); 
         for (int i = 0; i < contourFinder.nBlobs; i++){
             ofPushMatrix();
             contourFinder.blobs[i].draw(0,0);
@@ -329,8 +353,8 @@ void HandJesture::draw() {
             ofFill();
             ofEllipse(contourFinder.blobs[i].centroid.x, contourFinder.blobs[i].centroid.y, 4, 4);
 			
-			float centroidX = 0;
-			float centroidY = 0;
+			 centroidX = 0;
+			 centroidY = 0;
 			float addCount = 0;
 			for (int j = 0; j < contourFinder.blobs[i].nPts; j+=5){
 				addCount++;
@@ -340,24 +364,26 @@ void HandJesture::draw() {
 			centroidX = centroidX/addCount;
 			centroidY = centroidY/addCount;
 			ofCircle(centroidX, centroidY, 10);
-            ofPopMatrix();
+
+			ofPopMatrix();
         }
 		ofPopMatrix();
-	} else {
+	} 
+	else {
         //if showUserFeedback is on show the kinect input
         if(showUserFeedback)
         {
             grayImage.draw(screen_width-200, screen_height-150, 200, 150);
         }
         
-        //draw interactive shapes
-        drawShapes();
+
         
 		//msgFont.drawString("Press Space Key to start.", 20, ofGetHeight()-60);
 		
 		ofPushMatrix();
-		ofTranslate(400, 300, 0);
-		glScalef(0.6, 0.6, 1.0f); 
+		//ofTranslate(400, 300, 0);
+		glScalef(1, 1, 1.0f); 
+
         /*loop through each blob (hand) found*/
         for (int i = 0; i < contourFinder.nBlobs; i++){
             ofPushMatrix();
@@ -371,8 +397,8 @@ void HandJesture::draw() {
             //this prints an box around the found "hand" or blob
             //ofEllipse(contourFinder.blobs[i].centroid.x, contourFinder.blobs[i].centroid.y, 4, 4);
 			
-			float centroidX = 0;
-			float centroidY = 0;
+			 centroidX = 0;
+			 centroidY = 0;
 			float addCount = 0;
             //sets the x and y value for the contours
 			for (int j = 0; j < contourFinder.blobs[i].nPts; j+=5){
@@ -383,12 +409,31 @@ void HandJesture::draw() {
             /*These are the values */
 			centroidX = centroidX/addCount;
 			centroidY = centroidY/addCount;
-			ofCircle(centroidX, centroidY, 50);
+			
+			/*scales points to the screen size*/
+			centroidX = screen_width*(centroidX/620);
+			centroidY = screen_height*(centroidY/460);
+			
+			if((prev_x ==0.0f)&&(prev_y==0.0f)){
+				prev_x = centroidX;
+				prev_y = centroidY;
+			}
+			
+			//draw circle
+			ofCircle(centroidX, centroidY, 10);
+
+			//draw interactive shapes
+			HandJesture::drawShapes();
+			
+			prev_x = centroidX;
+			prev_y = centroidY;
+			
+			
             /*Gets a boolean value that indicates whether the hand has been made into a fist "clicked"*/
            HandJesture::checkClick(cornerCount);
 
             /*For test purposes only - print the location of the the X and Y location of each hand*/
-            printf("Hand Location X: %f Y: %f \n", centroidX,centroidY);
+    //      printf("Hand Location X: %f Y: %f \n", centroidX,centroidY);
             ofPopMatrix();
         }
 		ofPopMatrix();
@@ -401,13 +446,36 @@ void HandJesture::draw() {
     
 	ofNoFill();
 }
+//-----------------------------------------------------------------------------------
 /*print all the shape objects */
 void HandJesture::drawShapes()
 {
     //for every shape in the static shape array
         //generate a random colom (from an array of colors)
         //draw the shape to the screen
+	
+	for(int i = 0; i<10 ; i++)
+	{
+		ofSetColor(Shape::board[i]->getRed(), Shape::board[i]->getGreen(), Shape::board[i]->getBlue(),Shape::board[i]->getAlpha());
+		ofFill();
+		
+		//move with the hand if its grabbed
+		if((Shape::board[i]->isGrabbed())) 
+		{
+			Shape::board[i]->setLocation(centroidX, centroidY);
+			Shape::board[i]->setVelocity(centroidX-prev_x, centroidY-prev_y);
+			Shape::board[i]->checkCollision(i);
+		}
+		else {
+			Shape::board[i]->move();
+			Shape::board[i]->slow();
+		}
+		
+		ofRect(Shape::board[i]->getLocation_x(),Shape::board[i]->getLocation_y(),
+			   Shape::board[i]->getWidth(), Shape::board[i]->getHeight());
+	}
 }
+//-------------------------------------------------------------
 //Do on program exit
 void HandJesture::exit(){
 	kinect.close();
@@ -421,6 +489,7 @@ void HandJesture::keyPressed (int key)
 	ofLog(OF_LOG_VERBOSE, ofToString(key));
 	switch (key)
 	{
+	
 		case '>':
 		case '.':
 			farThreshold ++;
@@ -478,7 +547,7 @@ void HandJesture::keyPressed (int key)
 			break;
 	}
 }
-
+//-----------------------------------------------------------------------
 /*Checks to see if the hand has been clicked*/
 void HandJesture::checkClick(int cornerCount) {
 	cornerCountHistory.push_back(cornerCount);
@@ -507,6 +576,10 @@ void HandJesture::checkClick(int cornerCount) {
         printf("\n MOUSE DOWN \n \n");
 		handMode = HAND_MODE_CLICK;
 		checkMouseDownCount = 0;
+		for( int s=0; s<10; s++){
+			if(!(Shape::board[s]->isGrabbed())&&(Shape::board[s]->hoveredOver(centroidX,centroidY)))
+			Shape::board[s]->grabShape();
+		}
 		return;
 	}
 	if (cornerNums > currentCornerNums + 150) {
@@ -515,10 +588,14 @@ void HandJesture::checkClick(int cornerCount) {
              printf("\n MOUSE UP \n \n");
 			soundClick.play();
 			handMode = HAND_MODE_NORMAL;
+			for( int s=0; s<10; s++)
+				Shape::board[s]->releaseShape();
 			return;
 		} else if (handMode == HAND_MODE_CLICK) {
 			//fireMouseClick();
 			soundClick.play();
+			printf("\n MOUSE UP \n \n");
+
 			handMode = HAND_MODE_NORMAL;
 			return;
 		}
@@ -530,6 +607,10 @@ void HandJesture::checkClick(int cornerCount) {
              printf("\n MOUSE DOWN \n \n");
 			soundClick.play();
 			checkMouseDownCount = 0;
+			for( int s=0; s<10; s++){
+				if(!(Shape::board[s]->isGrabbed())&&(Shape::board[s]->hoveredOver(centroidX,centroidY)))
+					Shape::board[s]->grabShape();
+			}
 		}
 	}
 	return;
