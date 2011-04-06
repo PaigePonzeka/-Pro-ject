@@ -127,7 +127,7 @@ bool Shape::insideBounds(float left, float right, float top, float bottom)
 bool Shape::insideBounds_x(float left, float right)
 {
 	if((location_x > left)&&((location_x) < right)||
-	   (location_x+width > left)&&((location_x+width) < right)||
+	   ((location_x+width) > left)&&((location_x+width) < right)||
 	   (location_x < left)&&((location_x+width) > right))
 	{
 		return true;

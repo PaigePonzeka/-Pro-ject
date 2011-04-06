@@ -421,21 +421,23 @@ void HandJesture::draw() {
 			
 			//draw circle
 			ofCircle(centroidX, centroidY, 10);
-
-			//draw interactive shapes
 			HandJesture::drawShapes();
+		
 			
 			prev_x = centroidX;
 			prev_y = centroidY;
 			
 			
+			
             /*Gets a boolean value that indicates whether the hand has been made into a fist "clicked"*/
-           HandJesture::checkClick(cornerCount);
-
+			HandJesture::checkClick(cornerCount);
+			
             /*For test purposes only - print the location of the the X and Y location of each hand*/
     //      printf("Hand Location X: %f Y: %f \n", centroidX,centroidY);
             ofPopMatrix();
         }
+		//draw interactive shapes
+			if(contourFinder.nBlobs==0)HandJesture::drawShapes();
 		ofPopMatrix();
         
 	}
@@ -463,7 +465,7 @@ void HandJesture::drawShapes()
 		if((Shape::board[i]->isGrabbed())) 
 		{
 			Shape::board[i]->setLocation(centroidX-(Shape::board[i]->getWidth()/2), centroidY-(Shape::board[i]->getHeight()/2));
-			Shape::board[i]->setVelocity(centroidX-prev_x, centroidY-prev_y);
+			Shape::board[i]->setVelocity(centroidX-prev_x+1, centroidY-prev_y+1);
 			Shape::board[i]->checkCollision(i);
 		}
 		else {
