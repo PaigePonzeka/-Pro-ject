@@ -119,22 +119,26 @@ bool Shape::outsideBounds_y(float top, float bottom)
 
 bool Shape::insideBounds(float left, float right, float top, float bottom)
 {
-	if((location_x > left)&&((location_x + width) < right)&&
-	   (location_y > top)&&((location_y + height) < bottom)){
+	if((insideBounds_x(left, right))&&(insideBounds_y(top, bottom))){
 		return true;
 	}
 	else return false;
 }
 bool Shape::insideBounds_x(float left, float right)
 {
-	if((location_x > left)&&((location_x + width) < right)){
+	if((location_x > left)&&((location_x) < right)||
+	   (location_x+width > left)&&((location_x+width) < right)||
+	   (location_x < left)&&((location_x+width) > right))
+	{
 		return true;
 	}
 	else return false;
 }
 bool Shape::insideBounds_y( float top, float bottom)
 {
-	if((location_y > top)&&((location_y + height) < bottom)){
+	if((location_y > top)&&((location_y) < bottom)||
+	   ((location_y + height)> top)&&((location_y + height) < bottom)||
+	   (location_y < top)&&((location_y + height) > bottom)){
 		return true;
 	}
 	else return false;

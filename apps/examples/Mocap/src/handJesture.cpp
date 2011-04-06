@@ -462,7 +462,7 @@ void HandJesture::drawShapes()
 		//move with the hand if its grabbed
 		if((Shape::board[i]->isGrabbed())) 
 		{
-			Shape::board[i]->setLocation(centroidX, centroidY);
+			Shape::board[i]->setLocation(centroidX-(Shape::board[i]->getWidth()/2), centroidY-(Shape::board[i]->getHeight()/2));
 			Shape::board[i]->setVelocity(centroidX-prev_x, centroidY-prev_y);
 			Shape::board[i]->checkCollision(i);
 		}
@@ -595,7 +595,8 @@ void HandJesture::checkClick(int cornerCount) {
 			//fireMouseClick();
 			soundClick.play();
 			printf("\n MOUSE UP \n \n");
-
+			for( int s=0; s<10; s++)
+				Shape::board[s]->releaseShape();
 			handMode = HAND_MODE_NORMAL;
 			return;
 		}
