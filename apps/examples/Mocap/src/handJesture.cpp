@@ -333,10 +333,13 @@ void HandJesture::checkDepthUpdated(){
 
 //----------------------------------------------------------------------------------------------------------------
 void HandJesture::draw() {
+        
 
-	ofSetColor(255, 255, 255);
+    	ofSetColor(255, 255, 255);
 	
 	if (showConfigUI ==true ) {
+        //draw a black background for the gui
+        ofBackground(0,0,0);	
 		kinect.drawDepth(400, 0, 400, 300);
 		gui.draw();
 		
@@ -370,6 +373,8 @@ void HandJesture::draw() {
 		ofPopMatrix();
 	} 
 	else {
+        //draw a white background
+        ofBackground(255,255,255);	
         //if showUserFeedback is on show the kinect input
         if(showUserFeedback)
         {
