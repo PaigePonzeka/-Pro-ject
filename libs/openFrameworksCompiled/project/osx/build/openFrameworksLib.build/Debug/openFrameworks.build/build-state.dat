@@ -3,23 +3,23 @@ v3
 r0
 t322541577.028805
 cCheck dependencies
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppRunner.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppRunner.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofArduino.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSerial.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofSerial.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofBitmapFont.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofBitmapFont.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofGraphics.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofGraphics.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofImage.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofImage.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTexture.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTexture.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTrueTypeFont.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTrueTypeFont.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundPlayer.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundPlayer.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundStream.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofMath.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofMath.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofUtils.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofUtils.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofQtUtils.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofQtUtils.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoGrabber.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoGrabber.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoPlayer.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoPlayer.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-cLibtool /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../lib/osx/openFrameworksDebug.a normal i386
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppRunner.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppRunner.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofArduino.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSerial.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofSerial.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofBitmapFont.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofBitmapFont.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofGraphics.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofGraphics.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofImage.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofImage.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTexture.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTexture.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTrueTypeFont.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTrueTypeFont.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundPlayer.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundPlayer.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundStream.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofMath.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofMath.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofUtils.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofUtils.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofQtUtils.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofQtUtils.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoGrabber.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoGrabber.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoPlayer.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoPlayer.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cLibtool /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../lib/osx/openFrameworksDebug.a normal i386
 
 N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/float.h
 c000000004C238F150000000000001538
@@ -61,9 +61,9 @@ t1254535941
 s1143
 
 N/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c000000004C91794F00000000004D2720
-t1284602191
-s5056288
+c000000004D77144E00000000005198C0
+t1299649614
+s5347520
 
 N/System/Library/Frameworks/Carbon.framework/Carbon
 c000000004D22B148000000000000A5F0
@@ -116,8 +116,8 @@ t1267617438
 s16260
 
 N/System/Library/Frameworks/OpenGL.framework/OpenGL
-c000000004CE74B410000000000043330
-t1290226497
+c000000004D7713DA0000000000043330
+t1299649498
 s275248
 
 N/System/Library/Frameworks/QuickTime.framework/Headers/QuickTime.h
@@ -126,9 +126,9 @@ t1287921729
 s1625
 
 N/System/Library/Frameworks/QuickTime.framework/QuickTime
-c000000004CC8C1970000000000783950
-t1288225175
-s7878992
+c000000004D40EADD0000000000783960
+t1296100061
+s7879008
 
 N/Users/paigeponzeka/Kinect/Da-Source-Code/libs/fmodex/include/fmod.h
 c000000004CE3F5C80000000000028E68
@@ -1194,6 +1194,1075 @@ i<windows.h>
 N/Users/paigeponzeka/Kinect/Da-Source-Code/libs/rtAudio/include/RtError.h
 c000000004CE3F5CE0000000000000846
 t1290008014
+s2118
+i<exception>
+i<iostream>
+i<string>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/fmodex/include/fmod.h
+c000000004D9E14B10000000000028E68
+t1302205617
+s167528
+i"fmod_codec.h"
+i"fmod_dsp.h"
+i"fmod_memoryinfo.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/fmodex/include/fmod_codec.h
+c000000004D9E14B1000000000000334A
+t1302205617
+s13130
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/fmodex/include/fmod_dsp.h
+c000000004D9E14B1000000000000892F
+t1302205617
+s35119
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/fmodex/include/fmod_memoryinfo.h
+c000000004D9E14B10000000000003C95
+t1302205617
+s15509
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/freetype/include/freetype2/freetype/config/ftheader.h
+c000000004D9E14B10000000000005B39
+t1302205617
+s23353
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/freetype/include/freetype2/freetype/freetype.h
+c000000004D9E14B10000000000032885
+t1302205617
+s206981
+i<ft2build.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/freetype/include/freetype2/freetype/ftglyph.h
+c000000004D9E14B10000000000008DCF
+t1302205617
+s36303
+i<ft2build.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/freetype/include/freetype2/freetype/ftoutln.h
+c000000004D9E14B10000000000007B3C
+t1302205617
+s31548
+i<ft2build.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/freetype/include/freetype2/freetype/fttrigon.h
+c000000004D9E14B100000000000020FB
+t1302205617
+s8443
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/freetype/include/ft2build.h
+c000000004D9E14B10000000000000F32
+t1302205617
+s3890
+i<freetype/config/ftheader.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/app/ofAppBaseWindow.h
+c000000004D9E14B10000000000000446
+t1302205617
+s1094
+i"ofTypes.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/app/ofAppGlutWindow.h
+c000000004D9E14B1000000000000066B
+t1302205617
+s1643
+i"ofConstants.h"
+i"ofAppBaseWindow.h"
+i"glut.h"
+i<GLUT/glut.h>
+i<GL/glut.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/app/ofAppRunner.h
+c000000004D9E14B1000000000000050D
+t1302205617
+s1293
+i"ofMain.h"
+i"ofBaseApp.h"
+i"ofAppBaseWindow.h"
+i"ofAppGlutWindow.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/app/ofBaseApp.h
+c000000004D9E14B10000000000000376
+t1302205617
+s886
+i"ofTypes.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/communication/ofArduino.h
+c000000004D9E14B10000000000003D3C
+t1302205617
+s15676
+i<list>
+i<vector>
+i<string>
+i<iostream>
+i"ofEvents.h"
+i"ofSerial.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/communication/ofSerial.h
+c000000004D9E14B10000000000000D2E
+t1302205617
+s3374
+i"ofConstants.h"
+i<termios.h>
+i<sys/ioctl.h>
+i<getopt.h>
+i<dirent.h>
+i<winbase.h>
+i<tchar.h>
+i<iostream>
+i<string.h>
+i<setupapi.h>
+i<regstr.h>
+i<winioctl.h>
+i<initguid.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<fcntl.h>
+i<errno.h>
+i<ctype.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/events/ofEventUtils.h
+c000000004D9E14B10000000000000AFA
+t1302205617
+s2810
+i"ofConstants.h"
+i"Poco/FIFOEvent.h"
+i"Poco/Delegate.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/graphics/ofBitmapFont.h
+c000000004D9E14B10000000000000206
+t1302205617
+s518
+i"ofConstants.h"
+i"ofTexture.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/graphics/ofGraphics.h
+c000000004D9E14B10000000000000D63
+t1302205617
+s3427
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/graphics/ofImage.h
+c000000004D9E14B10000000000000D09
+t1302205617
+s3337
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofAppRunner.h"
+i"FreeImage.h"
+i"ofUtils.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/graphics/ofTexture.h
+c000000004D9E14B10000000000000C4B
+t1302205617
+s3147
+i"ofConstants.h"
+i"ofGraphics.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/graphics/ofTrueTypeFont.h
+c000000004D9E14B1000000000000087A
+t1302205617
+s2170
+i"ofConstants.h"
+i"ofGraphics.h"
+i"ofUtils.h"
+i"ofTypes.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/sound/ofSoundPlayer.h
+c000000004D9E14B100000000000006C3
+t1302205617
+s1731
+i"ofConstants.h"
+i"fmod.h"
+i"fmod_errors.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/sound/ofSoundStream.h
+c000000004D9E14B10000000000000254
+t1302205617
+s596
+i"ofConstants.h"
+i"ofBaseApp.h"
+i"ofEvents.h"
+i"ofMath.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/utils/ofConstants.h
+c000000004D9E14B10000000000002ACC
+t1302205617
+s10956
+i<TargetConditionals.h>
+i<windows.h>
+i"GLee.h"
+i"glu.h"
+i<unistd.h>
+i"GLee.h"
+i<OpenGL/glu.h>
+i<ApplicationServices/ApplicationServices.h>
+i<unistd.h>
+i"GLee.h"
+i<GL/glu.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<cstdlib>
+i<cstdio>
+i<cstdarg>
+i<cmath>
+i<ctime>
+i<cstdlib>
+i<string>
+i<iostream>
+i<vector>
+i<cstring>
+i<sstream>
+i<iomanip>
+i<fstream>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/utils/ofMath.h
+c000000004D9E14B10000000000000A66
+t1302205617
+s2662
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/utils/ofNoise.h
+c000000004D9E14B10000000000004F24
+t1302205617
+s20260
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/utils/ofTypes.h
+c000000004D9E14B10000000000001D5F
+t1302205617
+s7519
+i"ofConstants.h"
+i"ofUtils.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/utils/ofUtils.h
+c000000004D9E14B100000000000005A4
+t1302205617
+s1444
+i"ofConstants.h"
+i<shellapi.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/video/ofGstUtils.h
+c000000004D9E14B10000000000000B55
+t1302205617
+s2901
+i<gst/gst.h>
+i<pthread.h>
+i"ofConstants.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/video/ofQtUtils.h
+c000000004D9E14B100000000000006CF
+t1302205617
+s1743
+i"ofConstants.h"
+i"ofGraphics.h"
+i<QuickTime/QuickTime.h>
+i<CoreServices/CoreServices.h>
+i<ApplicationServices/ApplicationServices.h>
+i<QTML.h>
+i<FixMath.h>
+i<QuickTimeComponents.h>
+i<TextUtils.h>
+i<MediaHandlers.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/video/ofVideoGrabber.h
+c000000004D9E14B10000000000000C9C
+t1302205617
+s3228
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofTypes.h"
+i"ofQtUtils.h"
+i"videoInput.h"
+i"ofUCUtils.h"
+i"ofGstUtils.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/video/ofVideoPlayer.h
+c000000004D9E14B10000000000000C33
+t1302205617
+s3123
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGstUtils.h"
+i"ofQtUtils.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../FreeImage/include/FreeImage.h
+c000000004D9E14B0000000000000CC1B
+t1302205616
+s52251
+i<wchar.h>
+i<inttypes.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../fmodex/include/fmod.h
+c000000004D9E14B10000000000028E68
+t1302205617
+s167528
+i"fmod_codec.h"
+i"fmod_dsp.h"
+i"fmod_memoryinfo.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../fmodex/include/fmod_errors.h
+c000000004D9E14B10000000000003408
+t1302205617
+s13320
+i"fmod.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../glee/include/GLee.h
+c000000004D9E14B10000000000090A87
+t1302205617
+s592519
+i<windows.h>
+i<GL/gl.h>
+i<OpenGL/gl.h>
+i<GL/gl.h>
+i<GL/glx.h>
+i<stddef.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp
+c000000004D9E14B10000000000004730
+t1302205617
+s18224
+i"ofAppGlutWindow.h"
+i"ofBaseApp.h"
+i"ofMain.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppRunner.cpp
+c000000004D9E14B10000000000001876
+t1302205617
+s6262
+i"ofAppRunner.h"
+i"ofAppiPhoneWindow.h"
+i"ofAppGlutWindow.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppRunner.h
+c000000004D9E14B1000000000000050D
+t1302205617
+s1293
+i"ofMain.h"
+i"ofBaseApp.h"
+i"ofAppBaseWindow.h"
+i"ofAppGlutWindow.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.cpp
+c000000004D9E14B10000000000004269
+t1302205617
+s17001
+i"ofArduino.h"
+i"ofUtils.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.h
+c000000004D9E14B10000000000003D3C
+t1302205617
+s15676
+i<list>
+i<vector>
+i<string>
+i<iostream>
+i"ofEvents.h"
+i"ofSerial.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofSerial.cpp
+c000000004D9E14B10000000000004991
+t1302205617
+s18833
+i"ofSerial.h"
+i"ofMain.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofSerial.h
+c000000004D9E14B10000000000000D2E
+t1302205617
+s3374
+i"ofConstants.h"
+i<termios.h>
+i<sys/ioctl.h>
+i<getopt.h>
+i<dirent.h>
+i<winbase.h>
+i<tchar.h>
+i<iostream>
+i<string.h>
+i<setupapi.h>
+i<regstr.h>
+i<winioctl.h>
+i<initguid.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<fcntl.h>
+i<errno.h>
+i<ctype.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/events/ofEvents.h
+c000000004D9E14B1000000000000126C
+t1302205617
+s4716
+i"ofConstants.h"
+i"ofUtils.h"
+i"ofEventUtils.h"
+i"ofxEventUtils.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofBitmapFont.cpp
+c000000004D9E14B10000000000009D17
+t1302205617
+s40215
+i"ofBitmapFont.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofGraphics.cpp
+c000000004D9E14B100000000000081A7
+t1302205617
+s33191
+i"ofGraphics.h"
+i"ofAppRunner.h"
+i"ofBitmapFont.h"
+i<OpenGL/glu.h>
+i"glu.h"
+i"GL/glu.h"
+i"glu.h"
+i<vector>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofGraphics.h
+c000000004D9E14B10000000000000D63
+t1302205617
+s3427
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofImage.cpp
+c000000004D9E14B10000000000003F3D
+t1302205617
+s16189
+i"ofImage.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofImage.h
+c000000004D9E14B10000000000000D09
+t1302205617
+s3337
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofAppRunner.h"
+i"FreeImage.h"
+i"ofUtils.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTexture.cpp
+c000000004D9E14B1000000000000481C
+t1302205617
+s18460
+i"ofTexture.h"
+i"ofUtils.h"
+i"ofAppRunner.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTexture.h
+c000000004D9E14B10000000000000C4B
+t1302205617
+s3147
+i"ofConstants.h"
+i"ofGraphics.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTrueTypeFont.cpp
+c000000004D9E14B10000000000006D00
+t1302205617
+s27904
+i"ofTrueTypeFont.h"
+i<ft2build.h>
+i<freetype/freetype.h>
+i<freetype/ftglyph.h>
+i<freetype/ftoutln.h>
+i<freetype/fttrigon.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTrueTypeFont.h
+c000000004D9E14B1000000000000087A
+t1302205617
+s2170
+i"ofConstants.h"
+i"ofGraphics.h"
+i"ofUtils.h"
+i"ofTypes.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/ofMain.h
+c000000004D9E14B10000000000000347
+t1302205617
+s839
+i"ofConstants.h"
+i"ofMath.h"
+i"ofUtils.h"
+i"ofTypes.h"
+i"ofSerial.h"
+i"ofArduino.h"
+i"ofTexture.h"
+i"ofTrueTypeFont.h"
+i"ofGraphics.h"
+i"ofImage.h"
+i"ofBaseApp.h"
+i"ofAppRunner.h"
+i"ofSoundStream.h"
+i"ofSoundPlayer.h"
+i"ofVideoGrabber.h"
+i"ofVideoPlayer.h"
+i"ofEvents.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundPlayer.cpp
+c000000004D9E14B10000000000002413
+t1302205617
+s9235
+i"ofSoundPlayer.h"
+i"ofUtils.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundPlayer.h
+c000000004D9E14B100000000000006C3
+t1302205617
+s1731
+i"ofConstants.h"
+i"fmod.h"
+i"fmod_errors.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp
+c000000004D9E14B1000000000000143C
+t1302205617
+s5180
+i"ofSoundStream.h"
+i"RtAudio.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.h
+c000000004D9E14B10000000000000254
+t1302205617
+s596
+i"ofConstants.h"
+i"ofBaseApp.h"
+i"ofEvents.h"
+i"ofMath.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofConstants.h
+c000000004D9E14B10000000000002ACC
+t1302205617
+s10956
+i<TargetConditionals.h>
+i<windows.h>
+i"GLee.h"
+i"glu.h"
+i<unistd.h>
+i"GLee.h"
+i<OpenGL/glu.h>
+i<ApplicationServices/ApplicationServices.h>
+i<unistd.h>
+i"GLee.h"
+i<GL/glu.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<cstdlib>
+i<cstdio>
+i<cstdarg>
+i<cmath>
+i<ctime>
+i<cstdlib>
+i<string>
+i<iostream>
+i<vector>
+i<cstring>
+i<sstream>
+i<iomanip>
+i<fstream>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofMath.cpp
+c000000004D9E14B10000000000002440
+t1302205617
+s9280
+i"ofMath.h"
+i"ofAppRunner.h"
+i"float.h"
+i<sys/time.h>
+i"ofNoise.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofMath.h
+c000000004D9E14B10000000000000A66
+t1302205617
+s2662
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofTypes.h
+c000000004D9E14B10000000000001D5F
+t1302205617
+s7519
+i"ofConstants.h"
+i"ofUtils.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofUtils.cpp
+c000000004D9E14B10000000000002A00
+t1302205617
+s10752
+i"ofUtils.h"
+i"ofImage.h"
+i"sys/time.h"
+i<mmsystem.h>
+i<direct.h>
+i<mach-o/dyld.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofQtUtils.cpp
+c000000004D9E14B100000000000024FB
+t1302205617
+s9467
+i"ofQtUtils.h"
+i"ofUtils.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoGrabber.cpp
+c000000004D9E14B10000000000007E9C
+t1302205617
+s32412
+i"ofVideoGrabber.h"
+i"ofUtils.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoGrabber.h
+c000000004D9E14B10000000000000C9C
+t1302205617
+s3228
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofTypes.h"
+i"ofQtUtils.h"
+i"videoInput.h"
+i"ofUCUtils.h"
+i"ofGstUtils.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoPlayer.cpp
+c000000004D9E14B10000000000006CCD
+t1302205617
+s27853
+i"ofVideoPlayer.h"
+i"ofUtils.h"
+i<gst/video/video.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoPlayer.h
+c000000004D9E14B10000000000000C33
+t1302205617
+s3123
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGstUtils.h"
+i"ofQtUtils.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../rtAudio/include/RtAudio.h
+c000000004D9E14B30000000000009B55
+t1302205619
+s39765
+i<string>
+i<vector>
+i"RtError.h"
+i<windows.h>
+i<process.h>
+i<pthread.h>
+i<sys/time.h>
+i<sstream>
+i<CoreAudio/AudioHardware.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../lib/osx/openFrameworksDebug.a
+t1302311620
+s3690176
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o
+t1302311614
+s660732
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppRunner.o
+t1302311615
+s978728
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofArduino.o
+t1302311618
+s676388
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofBitmapFont.o
+t1302205617
+s51040
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofGraphics.o
+t1302205617
+s153884
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofImage.o
+t1302205617
+s72448
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofMath.o
+t1302205617
+s86844
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofQtUtils.o
+t1302205617
+s35188
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSerial.o
+t1302311618
+s46452
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundPlayer.o
+t1302205617
+s45016
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundStream.o
+t1302311620
+s253868
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTexture.o
+t1302205617
+s59152
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTrueTypeFont.o
+t1302205617
+s191420
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofUtils.o
+t1302205617
+s118124
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoGrabber.o
+t1302205617
+s81156
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoPlayer.o
+t1302205617
+s81588
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/openFrameworksDebug.LinkFileList
+c000000004D9FB2B90000000000000A8A
+t1302311609
+s2698
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/AbstractDelegate.h
+c000000004D9E14B10000000000000B2E
+t1302205617
+s2862
+i"Poco/Foundation.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/AbstractEvent.h
+c000000004D9E14B10000000000002C6A
+t1302205617
+s11370
+i"Poco/Foundation.h"
+i"Poco/SingletonHolder.h"
+i"Poco/SharedPtr.h"
+i"Poco/ActiveResult.h"
+i"Poco/ActiveMethod.h"
+i"Poco/Mutex.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/ActiveMethod.h
+c000000004D9E14B10000000000001C64
+t1302205617
+s7268
+i"Poco/Foundation.h"
+i"Poco/ActiveResult.h"
+i"Poco/ActiveRunnable.h"
+i"Poco/ActiveStarter.h"
+i"Poco/AutoPtr.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/ActiveResult.h
+c000000004D9E14B10000000000002E66
+t1302205617
+s11878
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/Event.h"
+i"Poco/RefCountedObject.h"
+i"Poco/Exception.h"
+i<algorithm>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/ActiveRunnable.h
+c000000004D9E14B10000000000001785
+t1302205617
+s6021
+i"Poco/Foundation.h"
+i"Poco/ActiveResult.h"
+i"Poco/Runnable.h"
+i"Poco/RefCountedObject.h"
+i"Poco/AutoPtr.h"
+i"Poco/Exception.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/ActiveStarter.h
+c000000004D9E14B10000000000000927
+t1302205617
+s2343
+i"Poco/Foundation.h"
+i"Poco/ThreadPool.h"
+i"Poco/ActiveRunnable.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/AutoPtr.h
+c000000004D9E14B10000000000001E0C
+t1302205617
+s7692
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<algorithm>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Bugcheck.h
+c000000004D9E14B100000000000012FE
+t1302205617
+s4862
+i"Poco/Foundation.h"
+i<string>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/CompareFunctions.h
+c000000004D9E14B100000000000007EC
+t1302205617
+s2028
+i"Poco/Foundation.h"
+i<functional>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Config.h
+c000000004D9E14B100000000000008B5
+t1302205617
+s2229
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Delegate.h
+c000000004D9E14B20000000000001802
+t1302205618
+s6146
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/FunctionDelegate.h"
+i"Poco/Expire.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Event.h
+c000000004D9E14B20000000000000E21
+t1302205618
+s3617
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/Event_WIN32.h"
+i"Poco/Event_POSIX.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Event_POSIX.h
+c000000004D9E14B20000000000000A91
+t1302205618
+s2705
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<pthread.h>
+i<errno.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Event_WIN32.h
+c000000004D9E14B20000000000000947
+t1302205618
+s2375
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Exception.h
+c000000004D9E14B200000000000026AC
+t1302205618
+s9900
+i"Poco/Foundation.h"
+i<stdexcept>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Expire.h
+c000000004D9E14B20000000000000CF1
+t1302205618
+s3313
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/Timestamp.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/FIFOEvent.h
+c000000004D9E14B20000000000000AD4
+t1302205618
+s2772
+i"Poco/AbstractEvent.h"
+i"Poco/FIFOStrategy.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/CompareFunctions.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/FIFOStrategy.h
+c000000004D9E14B200000000000010F3
+t1302205618
+s4339
+i"Poco/NotificationStrategy.h"
+i<map>
+i<list>
+i<memory>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Foundation.h
+c000000004D9E14B20000000000001023
+t1302205618
+s4131
+i"Poco/Config.h"
+i"Poco/Platform.h"
+i"Poco/Platform_WIN32.h"
+i"Poco/Platform_VMS.h"
+i"Poco/Platform_POSIX.h"
+i"Poco/Bugcheck.h"
+i"Poco/Types.h"
+i<string>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/FunctionDelegate.h
+c000000004D9E14B200000000000013CA
+t1302205618
+s5066
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Mutex.h
+c000000004D9E14B20000000000001A61
+t1302205618
+s6753
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/ScopedLock.h"
+i"Poco/Mutex_WIN32.h"
+i"Poco/Mutex_POSIX.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Mutex_POSIX.h
+c000000004D9E14B20000000000000AC3
+t1302205618
+s2755
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<pthread.h>
+i<errno.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Mutex_WIN32.h
+c000000004D9E14B20000000000000A07
+t1302205618
+s2567
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/NotificationStrategy.h
+c000000004D9E14B20000000000000A37
+t1302205618
+s2615
+i"Poco/Foundation.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Platform.h
+c000000004D9E14B20000000000001A3A
+t1302205618
+s6714
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Platform_POSIX.h
+c000000004D9E14B20000000000000843
+t1302205618
+s2115
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Platform_VMS.h
+c000000004D9E14B20000000000000BAA
+t1302205618
+s2986
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Platform_WIN32.h
+c000000004D9E14B20000000000000D4D
+t1302205618
+s3405
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/RefCountedObject.h
+c000000004D9E14B20000000000000B10
+t1302205618
+s2832
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Runnable.h
+c000000004D9E14B20000000000000861
+t1302205618
+s2145
+i"Poco/Foundation.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/ScopedLock.h
+c000000004D9E14B200000000000008EB
+t1302205618
+s2283
+i"Poco/Foundation.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/SharedPtr.h
+c000000004D9E14B200000000000021DE
+t1302205618
+s8670
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/Mutex.h"
+i<algorithm>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/SignalHandler.h
+c000000004D9E14B200000000000011EB
+t1302205618
+s4587
+i"Poco/Foundation.h"
+i<vector>
+i<setjmp.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/SingletonHolder.h
+c000000004D9E14B20000000000000A64
+t1302205618
+s2660
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Thread.h
+c000000004D9E14B20000000000001C3A
+t1302205618
+s7226
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/Thread_WIN32.h"
+i"Poco/Thread_POSIX.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/ThreadPool.h
+c000000004D9E14B20000000000001849
+t1302205618
+s6217
+i"Poco/Foundation.h"
+i"Poco/Thread.h"
+i"Poco/Mutex.h"
+i<vector>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Thread_POSIX.h
+c000000004D9E14B200000000000012A8
+t1302205618
+s4776
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/SignalHandler.h"
+i"Poco/Event.h"
+i"Poco/RefCountedObject.h"
+i"Poco/AutoPtr.h"
+i<pthread.h>
+i<sys/select.h>
+i<errno.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Thread_WIN32.h
+c000000004D9E14B2000000000000106C
+t1302205618
+s4204
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/UnWindows.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Timestamp.h
+c000000004D9E14B200000000000019A7
+t1302205618
+s6567
+i"Poco/Foundation.h"
+i<ctime>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Types.h
+c000000004D9E14B20000000000001910
+t1302205618
+s6416
+i"Poco/Foundation.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/UnWindows.h
+c000000004D9E14B20000000000000FD1
+t1302205618
+s4049
+i<windows.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/rtAudio/include/RtError.h
+c000000004D9E14B30000000000000846
+t1302205619
 s2118
 i<exception>
 i<iostream>
@@ -2420,6 +3489,54 @@ r0
 CBuild AST from /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoPlayer.cpp
 r0
 
+CBuild AST from /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp
+r0
+
+CBuild AST from /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppRunner.cpp
+r0
+
+CBuild AST from /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.cpp
+r0
+
+CBuild AST from /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofSerial.cpp
+r0
+
+CBuild AST from /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofBitmapFont.cpp
+r0
+
+CBuild AST from /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofGraphics.cpp
+r0
+
+CBuild AST from /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofImage.cpp
+r0
+
+CBuild AST from /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTexture.cpp
+r0
+
+CBuild AST from /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTrueTypeFont.cpp
+r0
+
+CBuild AST from /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundPlayer.cpp
+r0
+
+CBuild AST from /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp
+r0
+
+CBuild AST from /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofMath.cpp
+r0
+
+CBuild AST from /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofUtils.cpp
+r0
+
+CBuild AST from /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofQtUtils.cpp
+r0
+
+CBuild AST from /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoGrabber.cpp
+r0
+
+CBuild AST from /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoPlayer.cpp
+r0
+
 CBuild AST from /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp
 r0
 
@@ -2470,10 +3587,24 @@ r0
 
 CCheck dependencies
 r0
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies99bbe6176d49b341^40dafb176d49b341^---0#1#0#--18"Check dependencies
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciescf6a191bf04fb341^51d8d51bf04fb341^---0#1#0#--18"Check dependencies
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp normal i386 c++ com.apple.compilers.llvmgcc42
 r0
+
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s324004409.251439
+e324004414.929900
+r1
+xCompileC
+xbuild/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o
+x/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Compile /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cppebc54039ea4fb341^bb0dee3eea4fb341^-95"i686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done-0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp0000000000000000^1632"CompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o ../../../openFrameworks/app/ofAppGlutWindow.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -I/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -F/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../lib/osx -D__MACOSX_CORE__ -lpthread -c /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp -o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s322531906.491460
@@ -2506,6 +3637,20 @@ lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compil
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppRunner.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppRunner.cpp normal i386 c++ com.apple.compilers.llvmgcc42
 r0
 
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppRunner.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppRunner.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s324004409.253832
+e324004415.751731
+r1
+xCompileC
+xbuild/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppRunner.o
+x/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppRunner.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Compile /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppRunner.cpp0e134139ea4fb341^fc70c03fea4fb341^-95"i686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done-0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppRunner.cpp0000000000000000^1616"CompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppRunner.o ../../../openFrameworks/app/ofAppRunner.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -I/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -F/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../lib/osx -D__MACOSX_CORE__ -lpthread -c /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppRunner.cpp -o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppRunner.o
+
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppRunner.o /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppRunner.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s322531906.504847
 e322531915.795826
@@ -2537,6 +3682,20 @@ lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Compil
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofArduino.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.cpp normal i386 c++ com.apple.compilers.llvmgcc42
 r0
 
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofArduino.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s324004414.930084
+e324004418.840000
+r1
+xCompileC
+xbuild/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofArduino.o
+x/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Compile /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.cppe545ee3eea4fb341^0e11d742ea4fb341^-95"i686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done-0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.cpp0000000000000000^1628"CompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofArduino.o ../../../openFrameworks/communication/ofArduino.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -I/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -F/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../lib/osx -D__MACOSX_CORE__ -lpthread -c /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.cpp -o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofArduino.o
+
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofArduino.o /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s322531914.628059
 e322531919.872411
@@ -2566,6 +3725,9 @@ oi686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because l
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Compile /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.cpp0bebb601b33eb341^9a7a4105b33eb341^-95"i686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done-0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.cpp0000000000000000^1652"CompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofArduino.o ../../../openFrameworks/communication/ofArduino.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -F/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../lib/osx -D__MACOSX_CORE__ -lpthread -c /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.cpp -o /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofArduino.o
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofBitmapFont.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofBitmapFont.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofBitmapFont.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofBitmapFont.cpp normal i386 c++ com.apple.compilers.llvmgcc42
 r0
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofBitmapFont.o /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofBitmapFont.cpp normal i386 c++ com.apple.compilers.gcc.4_2
@@ -2599,6 +3761,9 @@ lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Compil
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofGraphics.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofGraphics.cpp normal i386 c++ com.apple.compilers.llvmgcc42
 r0
 
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofGraphics.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofGraphics.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofGraphics.o /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofGraphics.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s322531919.872516
 e322531924.395593
@@ -2628,6 +3793,9 @@ oi686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because l
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compile /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofGraphics.cpp4ca74105b33eb341^a2b40708b33eb341^-95"i686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done-0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofGraphics.cpp0000000000000000^1646"CompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofGraphics.o ../../../openFrameworks/graphics/ofGraphics.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -F/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../lib/osx -D__MACOSX_CORE__ -lpthread -c /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofGraphics.cpp -o /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofGraphics.o
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofImage.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofImage.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofImage.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofImage.cpp normal i386 c++ com.apple.compilers.llvmgcc42
 r0
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofImage.o /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
@@ -2661,6 +3829,9 @@ lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Compil
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofMath.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofMath.cpp normal i386 c++ com.apple.compilers.llvmgcc42
 r0
 
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofMath.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofMath.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofMath.o /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofMath.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s322531929.502363
 e322531933.120678
@@ -2690,6 +3861,9 @@ oi686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because l
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Compile /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofMath.cpp2a1b0a0cb33eb341^0c579b0eb33eb341^-95"i686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done-0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofMath.cpp0000000000000000^1624"CompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofMath.o ../../../openFrameworks/utils/ofMath.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -F/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../lib/osx -D__MACOSX_CORE__ -lpthread -c /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofMath.cpp -o /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofMath.o
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofQtUtils.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofQtUtils.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofQtUtils.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofQtUtils.cpp normal i386 c++ com.apple.compilers.llvmgcc42
 r0
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofQtUtils.o /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofQtUtils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
@@ -2723,6 +3897,20 @@ lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Compil
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSerial.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofSerial.cpp normal i386 c++ com.apple.compilers.llvmgcc42
 r0
 
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSerial.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofSerial.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s324004415.751889
+e324004418.479241
+r1
+xCompileC
+xbuild/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSerial.o
+x/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofSerial.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compile /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofSerial.cpp5796c03fea4fb341^9eb67a42ea4fb341^-95"i686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done-0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofSerial.cpp0000000000000000^1624"CompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSerial.o ../../../openFrameworks/communication/ofSerial.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -I/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -F/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../lib/osx -D__MACOSX_CORE__ -lpthread -c /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofSerial.cpp -o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSerial.o
+
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSerial.o /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofSerial.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s322531915.796003
 e322531919.300114
@@ -2752,6 +3940,9 @@ oi686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because l
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Compile /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofSerial.cppe36d8502b33eb341^1364cc04b33eb341^-95"i686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done-0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofSerial.cpp0000000000000000^1648"CompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSerial.o ../../../openFrameworks/communication/ofSerial.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -F/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../lib/osx -D__MACOSX_CORE__ -lpthread -c /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofSerial.cpp -o /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSerial.o
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundPlayer.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundPlayer.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundPlayer.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundPlayer.cpp normal i386 c++ com.apple.compilers.llvmgcc42
 r0
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundPlayer.o /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundPlayer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
@@ -2785,6 +3976,20 @@ lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compil
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundStream.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp normal i386 c++ com.apple.compilers.llvmgcc42
 r0
 
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundStream.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s324004418.480122
+e324004420.639673
+r1
+xCompileC
+xbuild/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundStream.o
+x/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Compile /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp4b037b42ea4fb341^15c9a344ea4fb341^-95"i686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done-0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp0000000000000000^1628"CompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundStream.o ../../../openFrameworks/sound/ofSoundStream.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -I/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -F/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../lib/osx -D__MACOSX_CORE__ -lpthread -c /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp -o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundStream.o
+
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundStream.o /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s322531928.490754
 e322531931.089914
@@ -2814,6 +4019,9 @@ oi686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because l
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compile /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp842cfb0ab33eb341^14251d0db33eb341^-95"i686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done-0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp0000000000000000^1652"CompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundStream.o ../../../openFrameworks/sound/ofSoundStream.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -F/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../lib/osx -D__MACOSX_CORE__ -lpthread -c /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp -o /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundStream.o
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTexture.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTexture.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTexture.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTexture.cpp normal i386 c++ com.apple.compilers.llvmgcc42
 r0
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTexture.o /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTexture.cpp normal i386 c++ com.apple.compilers.gcc.4_2
@@ -2847,6 +4055,9 @@ lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Compil
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTrueTypeFont.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTrueTypeFont.cpp normal i386 c++ com.apple.compilers.llvmgcc42
 r0
 
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTrueTypeFont.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTrueTypeFont.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTrueTypeFont.o /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTrueTypeFont.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s322531925.335340
 e322531928.490648
@@ -2876,6 +4087,9 @@ oi686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because l
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Compile /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTrueTypeFont.cpp7cedc108b33eb341^ea05fb0ab33eb341^-95"i686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done-0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTrueTypeFont.cpp0000000000000000^1662"CompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTrueTypeFont.o ../../../openFrameworks/graphics/ofTrueTypeFont.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -F/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../lib/osx -D__MACOSX_CORE__ -lpthread -c /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTrueTypeFont.cpp -o /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTrueTypeFont.o
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofUtils.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofUtils.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofUtils.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofUtils.cpp normal i386 c++ com.apple.compilers.llvmgcc42
 r0
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofUtils.o /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofUtils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
@@ -2909,6 +4123,9 @@ lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Compil
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoGrabber.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoGrabber.cpp normal i386 c++ com.apple.compilers.llvmgcc42
 r0
 
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoGrabber.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoGrabber.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoGrabber.o /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoGrabber.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s322531934.894690
 e322531937.755795
@@ -2938,6 +4155,9 @@ oi686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because l
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Compile /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoGrabber.cpp56d5bb0fb33eb341^4faefd11b33eb341^-95"i686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done-0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoGrabber.cpp0000000000000000^1656"CompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoGrabber.o ../../../openFrameworks/video/ofVideoGrabber.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -F/Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../lib/osx -D__MACOSX_CORE__ -lpthread -c /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoGrabber.cpp -o /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoGrabber.o
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoPlayer.o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoPlayer.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoPlayer.o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoPlayer.cpp normal i386 c++ com.apple.compilers.llvmgcc42
 r0
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoPlayer.o /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoPlayer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
@@ -2977,6 +4197,16 @@ x/Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/o
 xnormal
 xi386
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Libtool ../../lib/osx/openFrameworksDebug.a normal i3864d0f9e4e6941b341^ddd2ca4e6941b341^---0#0#0#--835"Libtool ../../lib/osx/openFrameworksDebug.a normal i386    cd /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx    /Developer/usr/bin/libtool -static -arch_only i386 -L/Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../lib/osx -filelist /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/openFrameworksDebug.LinkFileList -framework AGL -framework ApplicationServices -framework AudioToolbox -framework Carbon -framework CoreAudio -framework CoreFoundation -framework CoreServices -framework GLUT -framework OpenGL -framework QuickTime -o /Users/paigeponzeka/Kinect/Da-Source-Code/libs/openFrameworksCompiled/project/osx/../../lib/osx/openFrameworksDebug.a
+
+CLibtool /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../lib/osx/openFrameworksDebug.a normal i386
+s324004420.640087
+e324004420.707307
+r1
+xLibtool
+x/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../lib/osx/openFrameworksDebug.a
+xnormal
+xi386
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Libtool ../../lib/osx/openFrameworksDebug.a normal i38611fca344ea4fb341^8812b544ea4fb341^---0#0#0#--819"Libtool ../../lib/osx/openFrameworksDebug.a normal i386    cd /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx    /Developer/usr/bin/libtool -static -arch_only i386 -L/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../lib/osx -filelist /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/openFrameworksDebug.LinkFileList -framework AGL -framework ApplicationServices -framework AudioToolbox -framework Carbon -framework CoreAudio -framework CoreFoundation -framework CoreServices -framework GLUT -framework OpenGL -framework QuickTime -o /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/project/osx/../../lib/osx/openFrameworksDebug.a
 
 CLibtool /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/project/osx/../../lib/osx//openFrameworksDebug.a normal i386
 s322531938.234280

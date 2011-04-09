@@ -2,15 +2,15 @@ TpolygonExample
 v3
 r1
 cCheck dependencies
-cProcessInfoPlistFile /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin/polygonExampleDebug.app/Contents/Info.plist openFrameworks-Info.plist
-cProcessPCH++ /var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-fjkoivjizfccugdzuougbzbuzibu/Carbon.h.gch /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.llvmgcc42
-cCompileC build/polygonExample.build/Debug/polygonExample.build/Objects-normal/i386/main.o /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/src/main.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-cCompileC build/polygonExample.build/Debug/polygonExample.build/Objects-normal/i386/testApp.o /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/src/testApp.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-cLd /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin/polygonExampleDebug.app/Contents/MacOS/polygonExampleDebug normal i386
-cPhaseScriptExecution "Run Script" /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+cProcessInfoPlistFile /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin/polygonExampleDebug.app/Contents/Info.plist openFrameworks-Info.plist
+cProcessPCH++ /var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-aupcbfggwzgxzsdcounkkisbulsv/Carbon.h.gch /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/polygonExample.build/Debug/polygonExample.build/Objects-normal/i386/main.o /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/src/main.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/polygonExample.build/Debug/polygonExample.build/Objects-normal/i386/testApp.o /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/src/testApp.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cLd /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin/polygonExampleDebug.app/Contents/MacOS/polygonExampleDebug normal i386
+cPhaseScriptExecution "Run Script" /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
 cPBXCp ../../../libs/glut/lib/osx/GLUT.framework bin/polygonExampleDebug.app/Contents/Frameworks/GLUT.framework
 cPBXCp openFrameworks-Info.plist bin/polygonExampleDebug.app/Contents/Resources/openFrameworks-Info.plist
-cTouch /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin/polygonExampleDebug.app
+cTouch /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin/polygonExampleDebug.app
 
 N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
 c000000004D55C8260000000000003197
@@ -40,9 +40,9 @@ t1254535941
 s1143
 
 N/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c000000004C91794F00000000004D2720
-t1284602191
-s5056288
+c000000004D77144E00000000005198C0
+t1299649614
+s5347520
 
 N/System/Library/Frameworks/Carbon.framework/Carbon
 c000000004D22B148000000000000A5F0
@@ -95,8 +95,8 @@ t1267617438
 s16260
 
 N/System/Library/Frameworks/OpenGL.framework/OpenGL
-c000000004CE74B410000000000043330
-t1290226497
+c000000004D7713DA0000000000043330
+t1299649498
 s275248
 
 N/System/Library/Frameworks/QuickTime.framework/Headers/QuickTime.h
@@ -105,9 +105,787 @@ t1287921729
 s1625
 
 N/System/Library/Frameworks/QuickTime.framework/QuickTime
-c000000004CC8C1970000000000783950
-t1288225175
-s7878992
+c000000004D40EADD0000000000783960
+t1296100061
+s7879008
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/FreeImage/lib/osx/freeimage.a
+c000000004D9E14B00000000000AA64B0
+t1302205616
+s11166896
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/GLee/include/GLee.h
+c000000004D9E14B10000000000090A87
+t1302205617
+s592519
+i<windows.h>
+i<GL/gl.h>
+i<OpenGL/gl.h>
+i<GL/gl.h>
+i<GL/glx.h>
+i<stddef.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/GLee/lib/osx/GLee.a
+c000000004D9E14B100000000000C88C8
+t1302205617
+s821448
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/fmodex/include/fmod.h
+c000000004D9E14B10000000000028E68
+t1302205617
+s167528
+i"fmod_codec.h"
+i"fmod_dsp.h"
+i"fmod_memoryinfo.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/fmodex/include/fmod_errors.h
+c000000004D9E14B10000000000003408
+t1302205617
+s13320
+i"fmod.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/fmodex/lib/osx/libfmodex.dylib
+c000000004D9E14B100000000001DD8CC
+t1302205617
+s1956044
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/freeimage/include/FreeImage.h
+c000000004D9E14B0000000000000CC1B
+t1302205616
+s52251
+i<wchar.h>
+i<inttypes.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/freetype/lib/osx/freetype.a
+c000000004D9E14B100000000004D82C8
+t1302205617
+s5079752
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/glut/lib/osx/GLUT.framework
+c000000004D9E14B100000000000000CC
+t1302205617
+s204
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/glut/lib/osx/GLUT.framework/GLUT
+c000000004D9E14B1000000000011A218
+t1302205617
+s1155608
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/poco/lib/osx/CppUnit.a
+c000000004D9E14B2000000000003ABB0
+t1302205618
+s240560
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/poco/lib/osx/PocoFoundation.a
+c000000004D9E14B200000000005A62E8
+t1302205618
+s5923560
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/poco/lib/osx/PocoNet.a
+c000000004D9E14B20000000000378278
+t1302205618
+s3637880
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/poco/lib/osx/PocoUtil.a
+c000000004D9E14B200000000000FFB80
+t1302205618
+s1047424
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/poco/lib/osx/PocoXML.a
+c000000004D9E14B30000000000239BC0
+t1302205619
+s2333632
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/rtAudio/lib/osx/rtAudio.a
+c000000004D9E14B300000000000BC8E8
+t1302205619
+s772328
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin/polygonExampleDebug.app
+t1302205616
+s102
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin/polygonExampleDebug.app/Contents/Frameworks/GLUT.framework
+t1302205616
+s204
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin/polygonExampleDebug.app/Contents/Info.plist
+t1302205616
+s1008
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin/polygonExampleDebug.app/Contents/MacOS/polygonExampleDebug
+t1302205616
+s2804312
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin/polygonExampleDebug.app/Contents/PkgInfo
+t1302205616
+s8
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin/polygonExampleDebug.app/Contents/Resources/openFrameworks-Info.plist
+t1302205616
+s631
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/Objects-normal/i386/main.o
+t1302205616
+s38720
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/Objects-normal/i386/polygonExampleDebug.LinkFileList
+c000000004D9FB346000000000000012B
+t1302311750
+s299
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/Objects-normal/i386/testApp.o
+t1302205616
+s50976
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+c000000004D9E14B00000000000000113
+t1302205616
+s275
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/openFrameworks-Info.plist
+c000000004D9E14B00000000000000277
+t1302205616
+s631
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/src/main.cpp
+c000000004D9E14B0000000000000019E
+t1302205616
+s414
+i"ofMain.h"
+i"testApp.h"
+i"ofAppGlutWindow.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/src/testApp.cpp
+c000000004D9E14B00000000000002C9C
+t1302205616
+s11420
+i"testApp.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/src/testApp.h
+c000000004D9E14B00000000000000291
+t1302205616
+s657
+i"ofMain.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/fmodex/include/fmod.h
+c000000004D9E14B10000000000028E68
+t1302205617
+s167528
+i"fmod_codec.h"
+i"fmod_dsp.h"
+i"fmod_memoryinfo.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/fmodex/include/fmod_codec.h
+c000000004D9E14B1000000000000334A
+t1302205617
+s13130
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/fmodex/include/fmod_dsp.h
+c000000004D9E14B1000000000000892F
+t1302205617
+s35119
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/fmodex/include/fmod_memoryinfo.h
+c000000004D9E14B10000000000003C95
+t1302205617
+s15509
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/glut/lib/osx/GLUT.framework/Headers/glut.h
+c000000004D9E14B1000000000000578C
+t1302205617
+s22412
+i<windows.h>
+i<AvailabilityMacros.h>
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+i<GL/gl.h>
+i<GL/glu.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/app/ofAppBaseWindow.h
+c000000004D9E14B10000000000000446
+t1302205617
+s1094
+i"ofTypes.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/app/ofAppGlutWindow.h
+c000000004D9E14B1000000000000066B
+t1302205617
+s1643
+i"ofConstants.h"
+i"ofAppBaseWindow.h"
+i"glut.h"
+i<GLUT/glut.h>
+i<GL/glut.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/app/ofAppRunner.h
+c000000004D9E14B1000000000000050D
+t1302205617
+s1293
+i"ofMain.h"
+i"ofBaseApp.h"
+i"ofAppBaseWindow.h"
+i"ofAppGlutWindow.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/app/ofBaseApp.h
+c000000004D9E14B10000000000000376
+t1302205617
+s886
+i"ofTypes.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/communication/ofArduino.h
+c000000004D9E14B10000000000003D3C
+t1302205617
+s15676
+i<list>
+i<vector>
+i<string>
+i<iostream>
+i"ofEvents.h"
+i"ofSerial.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/communication/ofSerial.h
+c000000004D9E14B10000000000000D2E
+t1302205617
+s3374
+i"ofConstants.h"
+i<termios.h>
+i<sys/ioctl.h>
+i<getopt.h>
+i<dirent.h>
+i<winbase.h>
+i<tchar.h>
+i<iostream>
+i<string.h>
+i<setupapi.h>
+i<regstr.h>
+i<winioctl.h>
+i<initguid.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<fcntl.h>
+i<errno.h>
+i<ctype.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/events/ofEventUtils.h
+c000000004D9E14B10000000000000AFA
+t1302205617
+s2810
+i"ofConstants.h"
+i"Poco/FIFOEvent.h"
+i"Poco/Delegate.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/events/ofEvents.h
+c000000004D9E14B1000000000000126C
+t1302205617
+s4716
+i"ofConstants.h"
+i"ofUtils.h"
+i"ofEventUtils.h"
+i"ofxEventUtils.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/graphics/ofGraphics.h
+c000000004D9E14B10000000000000D63
+t1302205617
+s3427
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/graphics/ofImage.h
+c000000004D9E14B10000000000000D09
+t1302205617
+s3337
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofAppRunner.h"
+i"FreeImage.h"
+i"ofUtils.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/graphics/ofTexture.h
+c000000004D9E14B10000000000000C4B
+t1302205617
+s3147
+i"ofConstants.h"
+i"ofGraphics.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/graphics/ofTrueTypeFont.h
+c000000004D9E14B1000000000000087A
+t1302205617
+s2170
+i"ofConstants.h"
+i"ofGraphics.h"
+i"ofUtils.h"
+i"ofTypes.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/ofMain.h
+c000000004D9E14B10000000000000347
+t1302205617
+s839
+i"ofConstants.h"
+i"ofMath.h"
+i"ofUtils.h"
+i"ofTypes.h"
+i"ofSerial.h"
+i"ofArduino.h"
+i"ofTexture.h"
+i"ofTrueTypeFont.h"
+i"ofGraphics.h"
+i"ofImage.h"
+i"ofBaseApp.h"
+i"ofAppRunner.h"
+i"ofSoundStream.h"
+i"ofSoundPlayer.h"
+i"ofVideoGrabber.h"
+i"ofVideoPlayer.h"
+i"ofEvents.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/sound/ofSoundPlayer.h
+c000000004D9E14B100000000000006C3
+t1302205617
+s1731
+i"ofConstants.h"
+i"fmod.h"
+i"fmod_errors.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/sound/ofSoundStream.h
+c000000004D9E14B10000000000000254
+t1302205617
+s596
+i"ofConstants.h"
+i"ofBaseApp.h"
+i"ofEvents.h"
+i"ofMath.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/utils/ofConstants.h
+c000000004D9E14B10000000000002ACC
+t1302205617
+s10956
+i<TargetConditionals.h>
+i<windows.h>
+i"GLee.h"
+i"glu.h"
+i<unistd.h>
+i"GLee.h"
+i<OpenGL/glu.h>
+i<ApplicationServices/ApplicationServices.h>
+i<unistd.h>
+i"GLee.h"
+i<GL/glu.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<cstdlib>
+i<cstdio>
+i<cstdarg>
+i<cmath>
+i<ctime>
+i<cstdlib>
+i<string>
+i<iostream>
+i<vector>
+i<cstring>
+i<sstream>
+i<iomanip>
+i<fstream>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/utils/ofMath.h
+c000000004D9E14B10000000000000A66
+t1302205617
+s2662
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/utils/ofTypes.h
+c000000004D9E14B10000000000001D5F
+t1302205617
+s7519
+i"ofConstants.h"
+i"ofUtils.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/utils/ofUtils.h
+c000000004D9E14B100000000000005A4
+t1302205617
+s1444
+i"ofConstants.h"
+i<shellapi.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/video/ofGstUtils.h
+c000000004D9E14B10000000000000B55
+t1302205617
+s2901
+i<gst/gst.h>
+i<pthread.h>
+i"ofConstants.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/video/ofQtUtils.h
+c000000004D9E14B100000000000006CF
+t1302205617
+s1743
+i"ofConstants.h"
+i"ofGraphics.h"
+i<QuickTime/QuickTime.h>
+i<CoreServices/CoreServices.h>
+i<ApplicationServices/ApplicationServices.h>
+i<QTML.h>
+i<FixMath.h>
+i<QuickTimeComponents.h>
+i<TextUtils.h>
+i<MediaHandlers.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/video/ofVideoGrabber.h
+c000000004D9E14B10000000000000C9C
+t1302205617
+s3228
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofTypes.h"
+i"ofQtUtils.h"
+i"videoInput.h"
+i"ofUCUtils.h"
+i"ofGstUtils.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworks/video/ofVideoPlayer.h
+c000000004D9E14B10000000000000C33
+t1302205617
+s3123
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGstUtils.h"
+i"ofQtUtils.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a
+c000000004D9FB2C40000000000384EC0
+t1302311620
+s3690176
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/AbstractDelegate.h
+c000000004D9E14B10000000000000B2E
+t1302205617
+s2862
+i"Poco/Foundation.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/AbstractEvent.h
+c000000004D9E14B10000000000002C6A
+t1302205617
+s11370
+i"Poco/Foundation.h"
+i"Poco/SingletonHolder.h"
+i"Poco/SharedPtr.h"
+i"Poco/ActiveResult.h"
+i"Poco/ActiveMethod.h"
+i"Poco/Mutex.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/ActiveMethod.h
+c000000004D9E14B10000000000001C64
+t1302205617
+s7268
+i"Poco/Foundation.h"
+i"Poco/ActiveResult.h"
+i"Poco/ActiveRunnable.h"
+i"Poco/ActiveStarter.h"
+i"Poco/AutoPtr.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/ActiveResult.h
+c000000004D9E14B10000000000002E66
+t1302205617
+s11878
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/Event.h"
+i"Poco/RefCountedObject.h"
+i"Poco/Exception.h"
+i<algorithm>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/ActiveRunnable.h
+c000000004D9E14B10000000000001785
+t1302205617
+s6021
+i"Poco/Foundation.h"
+i"Poco/ActiveResult.h"
+i"Poco/Runnable.h"
+i"Poco/RefCountedObject.h"
+i"Poco/AutoPtr.h"
+i"Poco/Exception.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/ActiveStarter.h
+c000000004D9E14B10000000000000927
+t1302205617
+s2343
+i"Poco/Foundation.h"
+i"Poco/ThreadPool.h"
+i"Poco/ActiveRunnable.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/AutoPtr.h
+c000000004D9E14B10000000000001E0C
+t1302205617
+s7692
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<algorithm>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Bugcheck.h
+c000000004D9E14B100000000000012FE
+t1302205617
+s4862
+i"Poco/Foundation.h"
+i<string>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/CompareFunctions.h
+c000000004D9E14B100000000000007EC
+t1302205617
+s2028
+i"Poco/Foundation.h"
+i<functional>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Config.h
+c000000004D9E14B100000000000008B5
+t1302205617
+s2229
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Delegate.h
+c000000004D9E14B20000000000001802
+t1302205618
+s6146
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/FunctionDelegate.h"
+i"Poco/Expire.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Event.h
+c000000004D9E14B20000000000000E21
+t1302205618
+s3617
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/Event_WIN32.h"
+i"Poco/Event_POSIX.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Event_POSIX.h
+c000000004D9E14B20000000000000A91
+t1302205618
+s2705
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<pthread.h>
+i<errno.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Event_WIN32.h
+c000000004D9E14B20000000000000947
+t1302205618
+s2375
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Exception.h
+c000000004D9E14B200000000000026AC
+t1302205618
+s9900
+i"Poco/Foundation.h"
+i<stdexcept>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Expire.h
+c000000004D9E14B20000000000000CF1
+t1302205618
+s3313
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/Timestamp.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/FIFOEvent.h
+c000000004D9E14B20000000000000AD4
+t1302205618
+s2772
+i"Poco/AbstractEvent.h"
+i"Poco/FIFOStrategy.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/CompareFunctions.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/FIFOStrategy.h
+c000000004D9E14B200000000000010F3
+t1302205618
+s4339
+i"Poco/NotificationStrategy.h"
+i<map>
+i<list>
+i<memory>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Foundation.h
+c000000004D9E14B20000000000001023
+t1302205618
+s4131
+i"Poco/Config.h"
+i"Poco/Platform.h"
+i"Poco/Platform_WIN32.h"
+i"Poco/Platform_VMS.h"
+i"Poco/Platform_POSIX.h"
+i"Poco/Bugcheck.h"
+i"Poco/Types.h"
+i<string>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/FunctionDelegate.h
+c000000004D9E14B200000000000013CA
+t1302205618
+s5066
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Mutex.h
+c000000004D9E14B20000000000001A61
+t1302205618
+s6753
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/ScopedLock.h"
+i"Poco/Mutex_WIN32.h"
+i"Poco/Mutex_POSIX.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Mutex_POSIX.h
+c000000004D9E14B20000000000000AC3
+t1302205618
+s2755
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<pthread.h>
+i<errno.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Mutex_WIN32.h
+c000000004D9E14B20000000000000A07
+t1302205618
+s2567
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/NotificationStrategy.h
+c000000004D9E14B20000000000000A37
+t1302205618
+s2615
+i"Poco/Foundation.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Platform.h
+c000000004D9E14B20000000000001A3A
+t1302205618
+s6714
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Platform_POSIX.h
+c000000004D9E14B20000000000000843
+t1302205618
+s2115
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Platform_VMS.h
+c000000004D9E14B20000000000000BAA
+t1302205618
+s2986
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Platform_WIN32.h
+c000000004D9E14B20000000000000D4D
+t1302205618
+s3405
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/RefCountedObject.h
+c000000004D9E14B20000000000000B10
+t1302205618
+s2832
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Runnable.h
+c000000004D9E14B20000000000000861
+t1302205618
+s2145
+i"Poco/Foundation.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/ScopedLock.h
+c000000004D9E14B200000000000008EB
+t1302205618
+s2283
+i"Poco/Foundation.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/SharedPtr.h
+c000000004D9E14B200000000000021DE
+t1302205618
+s8670
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/Mutex.h"
+i<algorithm>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/SignalHandler.h
+c000000004D9E14B200000000000011EB
+t1302205618
+s4587
+i"Poco/Foundation.h"
+i<vector>
+i<setjmp.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/SingletonHolder.h
+c000000004D9E14B20000000000000A64
+t1302205618
+s2660
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Thread.h
+c000000004D9E14B20000000000001C3A
+t1302205618
+s7226
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/Thread_WIN32.h"
+i"Poco/Thread_POSIX.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/ThreadPool.h
+c000000004D9E14B20000000000001849
+t1302205618
+s6217
+i"Poco/Foundation.h"
+i"Poco/Thread.h"
+i"Poco/Mutex.h"
+i<vector>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Thread_POSIX.h
+c000000004D9E14B200000000000012A8
+t1302205618
+s4776
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/SignalHandler.h"
+i"Poco/Event.h"
+i"Poco/RefCountedObject.h"
+i"Poco/AutoPtr.h"
+i<pthread.h>
+i<sys/select.h>
+i<errno.h>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Thread_WIN32.h
+c000000004D9E14B2000000000000106C
+t1302205618
+s4204
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/UnWindows.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Timestamp.h
+c000000004D9E14B200000000000019A7
+t1302205618
+s6567
+i"Poco/Foundation.h"
+i<ctime>
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/Types.h
+c000000004D9E14B20000000000001910
+t1302205618
+s6416
+i"Poco/Foundation.h"
+
+N/Users/paigeponzeka/Kinect/Mocap_Code/libs/poco/include/Poco/UnWindows.h
+c000000004D9E14B20000000000000FD1
+t1302205618
+s4049
+i<windows.h>
 
 N/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/FreeImage/lib/osx/freeimage.a
 c000000004CE3F5C80000000000AA64B0
@@ -982,14 +1760,24 @@ c000000004BBD2CE900000000000025DA
 t1270689001
 s9690
 
+N/var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-aupcbfggwzgxzsdcounkkisbulsv/Carbon.h.gch
+t2
+s0
+
 N/var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-fjkoivjizfccugdzuougbzbuzibu/Carbon.h.gch
 t2
 s0
 
 NopenFrameworks-Info.plist
-c000000004CE3F5C60000000000000277
-t1290008006
+c000000004D9E14B00000000000000277
+t1302205616
 s631
+
+CBuild AST from /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/src/main.cpp
+r0
+
+CBuild AST from /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/src/testApp.cpp
+r0
 
 CBuild AST from /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/src/main.cpp
 r0
@@ -999,7 +1787,21 @@ r0
 
 CCheck dependencies
 r0
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesea95c212b33eb341^23f3c412b33eb341^-110"[WARN]Warning: The Copy Files build phase contains this target's Info.plist file 'openFrameworks-Info.plist'.1(21%IDEActivityLogMessage2@103"Warning: The Copy Files build phase contains this target's Info.plist file 'openFrameworks-Info.plist'.-322876178#18446744073709551615#0#-1#-----0#1#0#--18"Check dependencies
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf90f65c6ea4fb341^6d1c75c6ea4fb341^-110"[WARN]Warning: The Copy Files build phase contains this target's Info.plist file 'openFrameworks-Info.plist'.1(21%IDEActivityLogMessage2@103"Warning: The Copy Files build phase contains this target's Info.plist file 'openFrameworks-Info.plist'.-324004550#18446744073709551615#0#-1#-----0#1#0#--18"Check dependencies
+
+CCompileC build/polygonExample.build/Debug/polygonExample.build/Objects-normal/i386/main.o /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/src/main.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s324004553.764734
+e324004555.472058
+r1
+xCompileC
+xbuild/polygonExample.build/Debug/polygonExample.build/Objects-normal/i386/main.o
+x/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/src/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/src/main.cpp6de3c3c9ea4fb341^2fe178cbea4fb341^-95"i686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done-0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/src/main.cpp0000000000000000^1974"CompileC build/polygonExample.build/Debug/polygonExample.build/Objects-normal/i386/main.o src/main.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/polygonExampleDebug.hmap -I/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/DerivedSources/i386 -I/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/DerivedSources -F/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin -F/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-aupcbfggwzgxzsdcounkkisbulsv/Carbon.h -c /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/src/main.cpp -o /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/Objects-normal/i386/main.o
 
 CCompileC build/polygonExample.build/Debug/polygonExample.build/Objects-normal/i386/main.o /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/src/main.cpp normal i386 c++ com.apple.compilers.llvmgcc42
 s322876181.352170
@@ -1015,6 +1817,20 @@ xcom.apple.compilers.llvmgcc42
 oi686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/src/main.cpp2c455a15b33eb341^0c789516b33eb341^-95"i686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done-0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/src/main.cpp0000000000000000^2001"CompileC build/polygonExample.build/Debug/polygonExample.build/Objects-normal/i386/main.o src/main.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/polygonExampleDebug.hmap -I/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/DerivedSources/i386 -I/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/DerivedSources -F/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin -F/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-fjkoivjizfccugdzuougbzbuzibu/Carbon.h -c /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/src/main.cpp -o /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/Objects-normal/i386/main.o
 
+CCompileC build/polygonExample.build/Debug/polygonExample.build/Objects-normal/i386/testApp.o /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/src/testApp.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s324004553.764742
+e324004555.472295
+r1
+xCompileC
+xbuild/polygonExample.build/Debug/polygonExample.build/Objects-normal/i386/testApp.o
+x/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/src/testApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/src/testApp.cpp21e5c3c9ea4fb341^25e778cbea4fb341^-95"i686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done-0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/src/testApp.cpp0000000000000000^1986"CompileC build/polygonExample.build/Debug/polygonExample.build/Objects-normal/i386/testApp.o src/testApp.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/polygonExampleDebug.hmap -I/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/DerivedSources/i386 -I/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/DerivedSources -F/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin -F/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-aupcbfggwzgxzsdcounkkisbulsv/Carbon.h -c /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/src/testApp.cpp -o /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/Objects-normal/i386/testApp.o
+
 CCompileC build/polygonExample.build/Debug/polygonExample.build/Objects-normal/i386/testApp.o /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/src/testApp.cpp normal i386 c++ com.apple.compilers.llvmgcc42
 s322876181.352178
 e322876182.605362
@@ -1029,6 +1845,16 @@ xcom.apple.compilers.llvmgcc42
 oi686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/src/testApp.cppae465a15b33eb341^94fa9a16b33eb341^-95"i686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done-0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/src/testApp.cpp0000000000000000^2013"CompileC build/polygonExample.build/Debug/polygonExample.build/Objects-normal/i386/testApp.o src/testApp.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/polygonExampleDebug.hmap -I/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/DerivedSources/i386 -I/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/DerivedSources -F/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin -F/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-fjkoivjizfccugdzuougbzbuzibu/Carbon.h -c /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/src/testApp.cpp -o /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/Objects-normal/i386/testApp.o
 
+CLd /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin/polygonExampleDebug.app/Contents/MacOS/polygonExampleDebug normal i386
+s324004555.472541
+e324004555.821802
+r1
+xLd
+x/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin/polygonExampleDebug.app/Contents/MacOS/polygonExampleDebug
+xnormal
+xi386
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Link /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin/polygonExampleDebug.app/Contents/MacOS/polygonExampleDebug151979cbea4fb341^016ad2cbea4fb341^---0#0#0#--2889"Ld bin/polygonExampleDebug.app/Contents/MacOS/polygonExampleDebug normal i386    cd /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample    /Developer/usr/bin/llvm-g++-4.2 -arch i386 -L/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin -L/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/freeimage/lib/osx -L/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/FreeImage/lib/osx -L/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/GLee/lib/osx -L/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/poco/lib/osx -L/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/rtAudio/lib/osx -L/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/fmodex/lib/osx -L/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/freetype/lib/osx -L/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/FreeImage/lib/osx -F/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin -F/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/glut/lib/osx -filelist /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/Objects-normal/i386/polygonExampleDebug.LinkFileList -dead_strip /Users/paigeponzeka/Kinect/Mocap_Code/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/GLee/lib/osx/GLee.a /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/rtAudio/lib/osx/rtAudio.a -framework AGL -framework ApplicationServices -framework AudioToolbox -framework Carbon -framework CoreAudio -framework CoreFoundation -framework CoreServices -framework OpenGL -framework QuickTime -framework AppKit -framework Cocoa -framework IOKit -framework GLUT /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/poco/lib/osx/CppUnit.a /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/poco/lib/osx/PocoFoundation.a /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/poco/lib/osx/PocoNet.a /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/poco/lib/osx/PocoUtil.a /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/poco/lib/osx/PocoXML.a /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/freetype/lib/osx/freetype.a -lfmodex /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/FreeImage/lib/osx/freeimage.a -o /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin/polygonExampleDebug.app/Contents/MacOS/polygonExampleDebug
+
 CLd /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin/polygonExampleDebug.app/Contents/MacOS/polygonExampleDebug normal i386
 s322876182.605568
 e322876183.583342
@@ -1040,13 +1866,13 @@ xi386
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Link /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin/polygonExampleDebug.app/Contents/MacOS/polygonExampleDebug5b269b16b33eb341^58579517b33eb341^---0#0#0#--2961"Ld bin/polygonExampleDebug.app/Contents/MacOS/polygonExampleDebug normal i386    cd /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample    /Developer/usr/bin/llvm-g++-4.2 -arch i386 -L/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin -L/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/freeimage/lib/osx -L/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/FreeImage/lib/osx -L/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/GLee/lib/osx -L/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/poco/lib/osx -L/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/rtAudio/lib/osx -L/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/fmodex/lib/osx -L/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/freetype/lib/osx -L/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/FreeImage/lib/osx -F/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin -F/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/glut/lib/osx -filelist /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/Objects-normal/i386/polygonExampleDebug.LinkFileList -dead_strip /Users/paigeponzeka/Kinect/of_preRelease/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/GLee/lib/osx/GLee.a /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/rtAudio/lib/osx/rtAudio.a -framework AGL -framework ApplicationServices -framework AudioToolbox -framework Carbon -framework CoreAudio -framework CoreFoundation -framework CoreServices -framework OpenGL -framework QuickTime -framework AppKit -framework Cocoa -framework IOKit -framework GLUT /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/poco/lib/osx/CppUnit.a /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/poco/lib/osx/PocoFoundation.a /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/poco/lib/osx/PocoNet.a /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/poco/lib/osx/PocoUtil.a /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/poco/lib/osx/PocoXML.a /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/freetype/lib/osx/freetype.a -lfmodex /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/FreeImage/lib/osx/freeimage.a -o /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin/polygonExampleDebug.app/Contents/MacOS/polygonExampleDebug
 
 CPBXCp ../../../libs/glut/lib/osx/GLUT.framework bin/polygonExampleDebug.app/Contents/Frameworks/GLUT.framework
-s322876183.660297
-e322876183.798877
+s324004555.866046
+e324004555.978190
 r1
 xPBXCp
 x../../../libs/glut/lib/osx/GLUT.framework
 xbin/polygonExampleDebug.app/Contents/Frameworks/GLUT.framework
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy bin/polygonExampleDebug.app/Contents/Frameworks/GLUT.frameworka81ea917b33eb341^058acc17b33eb341^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin/polygonExampleDebug.app/Contents/Frameworks/GLUT.framework000020442305f041^517"PBXCp ../../../libs/glut/lib/osx/GLUT.framework bin/polygonExampleDebug.app/Contents/Frameworks/GLUT.framework    cd /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/glut/lib/osx/GLUT.framework /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin/polygonExampleDebug.app/Contents/Frameworks
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy bin/polygonExampleDebug.app/Contents/Frameworks/GLUT.framework98dbddcbea4fb341^666afacbea4fb341^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin/polygonExampleDebug.app/Contents/Frameworks/GLUT.framework/0000000000000000^508"PBXCp ../../../libs/glut/lib/osx/GLUT.framework bin/polygonExampleDebug.app/Contents/Frameworks/GLUT.framework    cd /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/glut/lib/osx/GLUT.framework /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin/polygonExampleDebug.app/Contents/Frameworks
 
 CPBXCp openFrameworks-Info.plist bin/polygonExampleDebug.app/Contents/Resources/openFrameworks-Info.plist
 s322876183.800604
@@ -1057,6 +1883,15 @@ xopenFrameworks-Info.plist
 xbin/polygonExampleDebug.app/Contents/Resources/openFrameworks-Info.plist
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy bin/polygonExampleDebug.app/Contents/Resources/openFrameworks-Info.plist3a21d017b33eb341^fce0d017b33eb341^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin/polygonExampleDebug.app/Contents/Resources/openFrameworks-Info.plist000020442305f041^494"PBXCp openFrameworks-Info.plist bin/polygonExampleDebug.app/Contents/Resources/openFrameworks-Info.plist    cd /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/openFrameworks-Info.plist /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin/polygonExampleDebug.app/Contents/Resources
 
+CPhaseScriptExecution "Run Script" /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+s324004555.823802
+e324004555.856095
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'cff3d3cbea4fb341^d828dbcbea4fb341^---0#0#0#--21167"PhaseScriptExecution "Run Script" build/polygonExample.build/Debug/polygonExample.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh    cd /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER paigeponzeka    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386"    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build    setenv BUILD_ROOT /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin    setenv CACHE_ROOT /var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin/polygonExampleDebug.app    setenv CODE_SIGNING_ALLOWED YES    setenv COMBINE_HIDPI_IMAGES NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin    setenv CONFIGURATION_TEMP_DIR /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug    setenv CONTENTS_FOLDER_PATH polygonExampleDebug.app/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH polygonExampleDebug.app/Contents/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/polygonExample.dst    setenv DWARF_DSYM_FILE_NAME polygonExampleDebug.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH polygonExampleDebug.app/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH polygonExampleDebug.app/Contents/MacOS    setenv EXECUTABLE_NAME polygonExampleDebug    setenv EXECUTABLE_PATH polygonExampleDebug.app/Contents/MacOS/polygonExampleDebug    setenv FILE_LIST /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH polygonExampleDebug.app/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin\"  \"/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 "\"/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME polygonExampleDebug.app    setenv GCC3_VERSION 3.3    setenv GCC_AUTO_VECTORIZATION YES    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_FIX_AND_CONTINUE YES    setenv GCC_ENABLE_SSE3_EXTENSIONS YES    setenv GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS YES    setenv GCC_GENERATE_DEBUGGING_SYMBOLS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN NO    setenv GCC_MODEL_TUNING G4    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvmgcc42    setenv GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS NO    setenv GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO NO    setenv GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL NO    setenv GCC_WARN_UNINITIALIZED_AUTOS NO    setenv GCC_WARN_UNUSED_VALUE NO    setenv GCC_WARN_UNUSED_VARIABLE NO    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin/include\" ../../../libs/openFrameworks/** ../../../libs/freetype/include/ ../../../libs/freetype/include/freetype2 ../../../libs/poco/include ../../../addons/"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE openFrameworks-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH polygonExampleDebug.app/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH polygonExampleDebug.app/Contents/Resources/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/polygonExample.dst/Users/paigeponzeka/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER paigeponzeka    setenv INSTALL_PATH /Users/paigeponzeka/Applications    setenv INSTALL_ROOT /tmp/polygonExample.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH polygonExampleDebug.app/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/polygonExampleDebug-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEGACY_DEVELOPER_DIR /Developer/Library/Xcode/PrivatePlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin\"  \"/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/freeimage/lib/osx\" \"/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/FreeImage/lib/osx\"  \"/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/GLee/lib/osx\" \"/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/poco/lib/osx\" \"/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/rtAudio/lib/osx\"        \"/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/fmodex/lib/osx\" \"/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/freetype/lib/osx\" \"/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/FreeImage/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 "\"/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/freeimage/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_14 "\"/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/fmodex/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_15 "\"/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/freetype/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 "\"/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/FreeImage/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4 "\"/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/GLee/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_5 "\"/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/poco/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_6 "\"/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/rtAudio/lib/osx\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/Objects-normal/i386/polygonExampleDebug.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH polygonExampleDebug.app/Contents/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 10J869    setenv MAC_OS_X_VERSION_ACTUAL 1067    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0607    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/Objects-normal    setenv OBJROOT /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CPLUSPLUSFLAGS "-D__MACOSX_CORE__ -lpthread"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH polygonExampleDebug.app/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS c++    setenv PKGINFO_FILE_PATH /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/PkgInfo    setenv PKGINFO_PATH polygonExampleDebug.app/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/MacOSX.platform    setenv PLATFORM_NAME macosx    setenv PLATFORM_PREFERRED_ARCH x86_64    setenv PLATFORM_PRODUCT_BUILD_VERSION 4A304a    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH polygonExampleDebug.app/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH polygonExampleDebug.app/Contents/PrivateHeaders    setenv PRODUCT_NAME polygonExampleDebug    setenv PRODUCT_SETTINGS_PATH /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/openFrameworks-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT polygonExample    setenv PROJECT_DERIVED_FILE_DIR /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/DerivedSources    setenv PROJECT_DIR /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample    setenv PROJECT_FILE_PATH /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/polygonExample.xcodeproj    setenv PROJECT_NAME polygonExample    setenv PROJECT_TEMP_DIR /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build    setenv PUBLIC_HEADERS_FOLDER_PATH polygonExampleDebug.app/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH polygonExampleDebug.app/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT     setenv SDK_PRODUCT_BUILD_VERSION 10J869    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH polygonExampleDebug.app/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH polygonExampleDebug.app/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample    setenv SRCROOT /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_PLATFORMS macosx    setenv SYMBOL_REPOSITORY_DIR /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/SymbolRepositories    setenv SYMROOT /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME polygonExample    setenv TARGET_BUILD_DIR /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin    setenv TARGET_NAME polygonExample    setenv TARGET_TEMP_DIR /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build    setenv TEMP_DIR /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build    setenv TEMP_FILES_DIR /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build    setenv TEMP_FILE_DIR /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build    setenv TEMP_ROOT /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build    setenv TEST_AFTER_BUILD NO    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH polygonExampleDebug.app/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER paigeponzeka    setenv USER_APPS_DIR /Users/paigeponzeka/Applications    setenv USER_LIBRARY_DIR /Users/paigeponzeka/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH polygonExampleDebug.app/Contents/version.plist    setenv VERSION_INFO_BUILDER paigeponzeka    setenv VERSION_INFO_FILE polygonExampleDebug_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:polygonExampleDebug  PROJECT:polygonExample-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME polygonExampleDebug.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4A304a    setenv XCODE_VERSION_ACTUAL 0400    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0400    setenv YACC /Developer/usr/bin/yacc    setenv ZERO_LINK NO    /bin/sh -c /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+
 CPhaseScriptExecution "Run Script" /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
 s322876183.585710
 e322876183.658741
@@ -1065,6 +1900,9 @@ xPhaseScriptExecution
 xRun Script
 x/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'7ffb9617b33eb341^72a3a817b33eb341^---0#0#0#--21350"PhaseScriptExecution "Run Script" build/polygonExample.build/Debug/polygonExample.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh    cd /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER paigeponzeka    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386"    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build    setenv BUILD_ROOT /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin    setenv CACHE_ROOT /var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin/polygonExampleDebug.app    setenv CODE_SIGNING_ALLOWED YES    setenv COMBINE_HIDPI_IMAGES NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin    setenv CONFIGURATION_TEMP_DIR /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug    setenv CONTENTS_FOLDER_PATH polygonExampleDebug.app/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH polygonExampleDebug.app/Contents/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/polygonExample.dst    setenv DWARF_DSYM_FILE_NAME polygonExampleDebug.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH polygonExampleDebug.app/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH polygonExampleDebug.app/Contents/MacOS    setenv EXECUTABLE_NAME polygonExampleDebug    setenv EXECUTABLE_PATH polygonExampleDebug.app/Contents/MacOS/polygonExampleDebug    setenv FILE_LIST /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH polygonExampleDebug.app/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin\"  \"/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 "\"/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME polygonExampleDebug.app    setenv GCC3_VERSION 3.3    setenv GCC_AUTO_VECTORIZATION YES    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_FIX_AND_CONTINUE YES    setenv GCC_ENABLE_SSE3_EXTENSIONS YES    setenv GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS YES    setenv GCC_GENERATE_DEBUGGING_SYMBOLS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN NO    setenv GCC_MODEL_TUNING G4    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvmgcc42    setenv GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS NO    setenv GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO NO    setenv GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL NO    setenv GCC_WARN_UNINITIALIZED_AUTOS NO    setenv GCC_WARN_UNUSED_VALUE NO    setenv GCC_WARN_UNUSED_VARIABLE NO    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin/include\" ../../../libs/openFrameworks/** ../../../libs/freetype/include/ ../../../libs/freetype/include/freetype2 ../../../libs/poco/include ../../../addons/"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE openFrameworks-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH polygonExampleDebug.app/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH polygonExampleDebug.app/Contents/Resources/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/polygonExample.dst/Users/paigeponzeka/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER paigeponzeka    setenv INSTALL_PATH /Users/paigeponzeka/Applications    setenv INSTALL_ROOT /tmp/polygonExample.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH polygonExampleDebug.app/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/polygonExampleDebug-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEGACY_DEVELOPER_DIR /Developer/Library/Xcode/PrivatePlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin\"  \"/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/freeimage/lib/osx\" \"/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/FreeImage/lib/osx\"  \"/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/GLee/lib/osx\" \"/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/poco/lib/osx\" \"/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/rtAudio/lib/osx\"        \"/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/fmodex/lib/osx\" \"/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/freetype/lib/osx\" \"/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/FreeImage/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 "\"/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/freeimage/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_14 "\"/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/fmodex/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_15 "\"/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/freetype/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 "\"/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/FreeImage/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4 "\"/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/GLee/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_5 "\"/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/poco/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_6 "\"/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/rtAudio/lib/osx\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/Objects-normal/i386/polygonExampleDebug.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH polygonExampleDebug.app/Contents/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 10J567    setenv MAC_OS_X_VERSION_ACTUAL 1066    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0606    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/Objects-normal    setenv OBJROOT /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CPLUSPLUSFLAGS "-D__MACOSX_CORE__ -lpthread"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH polygonExampleDebug.app/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS c++    setenv PKGINFO_FILE_PATH /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/PkgInfo    setenv PKGINFO_PATH polygonExampleDebug.app/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/MacOSX.platform    setenv PLATFORM_NAME macosx    setenv PLATFORM_PREFERRED_ARCH x86_64    setenv PLATFORM_PRODUCT_BUILD_VERSION 4A304a    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH polygonExampleDebug.app/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH polygonExampleDebug.app/Contents/PrivateHeaders    setenv PRODUCT_NAME polygonExampleDebug    setenv PRODUCT_SETTINGS_PATH /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/openFrameworks-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT polygonExample    setenv PROJECT_DERIVED_FILE_DIR /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/DerivedSources    setenv PROJECT_DIR /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample    setenv PROJECT_FILE_PATH /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/polygonExample.xcodeproj    setenv PROJECT_NAME polygonExample    setenv PROJECT_TEMP_DIR /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build    setenv PUBLIC_HEADERS_FOLDER_PATH polygonExampleDebug.app/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH polygonExampleDebug.app/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT     setenv SDK_PRODUCT_BUILD_VERSION 10J567    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH polygonExampleDebug.app/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH polygonExampleDebug.app/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample    setenv SRCROOT /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_PLATFORMS macosx    setenv SYMBOL_REPOSITORY_DIR /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/SymbolRepositories    setenv SYMROOT /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME polygonExample    setenv TARGET_BUILD_DIR /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin    setenv TARGET_NAME polygonExample    setenv TARGET_TEMP_DIR /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build    setenv TEMP_DIR /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build    setenv TEMP_FILES_DIR /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build    setenv TEMP_FILE_DIR /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build    setenv TEMP_ROOT /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build    setenv TEST_AFTER_BUILD NO    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH polygonExampleDebug.app/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER paigeponzeka    setenv USER_APPS_DIR /Users/paigeponzeka/Applications    setenv USER_LIBRARY_DIR /Users/paigeponzeka/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH polygonExampleDebug.app/Contents/version.plist    setenv VERSION_INFO_BUILDER paigeponzeka    setenv VERSION_INFO_FILE polygonExampleDebug_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:polygonExampleDebug  PROJECT:polygonExample-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME polygonExampleDebug.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4A304a    setenv XCODE_VERSION_ACTUAL 0400    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0400    setenv YACC /Developer/usr/bin/yacc    setenv ZERO_LINK NO    /bin/sh -c /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+
+CProcessInfoPlistFile /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin/polygonExampleDebug.app/Contents/Info.plist openFrameworks-Info.plist
+r0
 
 CProcessInfoPlistFile /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin/polygonExampleDebug.app/Contents/Info.plist openFrameworks-Info.plist
 s322876178.777740
@@ -1077,6 +1915,23 @@ lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Process
 
 CProcessPCH++ /Users/paigeponzeka/Library/Developer/Xcode/DerivedData/polygonExample-fanbnkdwctreryeikvxqiakhkpcl/Index/PrecompiledHeaders/Carbon-ftekyxentrmceqghikwookiudnod_ast/Carbon.h.pth /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
+
+CProcessPCH++ /Users/paigeponzeka/Library/Developer/Xcode/DerivedData/polygonExample-gswrwtzlulxmucfyvnzegmcpeejd/Index/PrecompiledHeaders/Carbon-ffcjlzzwgedvlkaoktwphmlwbhzn_ast/Carbon.h.pth /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-aupcbfggwzgxzsdcounkkisbulsv/Carbon.h.gch /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.llvmgcc42
+s324004550.487636
+e324004553.764509
+r1
+xProcessPCH++
+x/var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-aupcbfggwzgxzsdcounkkisbulsv/Carbon.h.gch
+x/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Precompile /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h72517dc6ea4fb341^2cb8c3c9ea4fb341^-95"i686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done-0#0#0#-19%DVTDocumentLocation2@76"file://localhost/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h0000000000000000^1927"ProcessPCH++ /var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-aupcbfggwzgxzsdcounkkisbulsv/Carbon.h.gch /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/polygonExampleDebug.hmap -I/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/DerivedSources/i386 -I/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/DerivedSources -F/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin -F/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -c /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h -o /var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-aupcbfggwzgxzsdcounkkisbulsv/Carbon.h.gch
 
 CProcessPCH++ /var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-fjkoivjizfccugdzuougbzbuzibu/Carbon.h.gch /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.llvmgcc42
 s322876178.782902
@@ -1091,6 +1946,14 @@ xc++
 xcom.apple.compilers.llvmgcc42
 oi686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Precompile /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h3b89c812b33eb341^bd185a15b33eb341^-95"i686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done-0#0#0#-19%DVTDocumentLocation2@76"file://localhost/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h0000000000000000^1948"ProcessPCH++ /var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-fjkoivjizfccugdzuougbzbuzibu/Carbon.h.gch /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/polygonExampleDebug.hmap -I/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/DerivedSources/i386 -I/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/build/polygonExample.build/Debug/polygonExample.build/DerivedSources -F/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin -F/Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -c /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h -o /var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-fjkoivjizfccugdzuougbzbuzibu/Carbon.h.gch
+
+CTouch /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin/polygonExampleDebug.app
+s324004555.981765
+e324004555.993412
+r1
+xTouch
+x/Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin/polygonExampleDebug.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Touch /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin/polygonExampleDebug.app1365fbcbea4fb341^fd4ffecbea4fb341^---0#0#0#--225"Touch bin/polygonExampleDebug.app    cd /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample    /usr/bin/touch -c /Users/paigeponzeka/Kinect/Mocap_Code/apps/examples/polygonExample/bin/polygonExampleDebug.app
 
 CTouch /Users/paigeponzeka/Kinect/of_preRelease/apps/examples/polygonExample/bin/polygonExampleDebug.app
 s322876183.817407
