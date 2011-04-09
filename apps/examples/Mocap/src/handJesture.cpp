@@ -55,9 +55,15 @@ void HandJesture::setup() {
 	showConfigUI = true;
 	mirror = true;
     showUserFeedback=true;
-	
+    
+    //intialize the background board sound
+    background_sound.loadSound("sound/background.mp3");
+    background_sound.setVolume(0.75f);
+	background_sound.setMultiPlay(true);
+    background_sound.setLoop(true);
+    	
 	// Setup Kinect
-	angle = 10;
+	angle = 5;
 	//kinect.init(true);  //shows infrared image
 	kinect.init();
 	//kinect.setVerbose(true);
@@ -338,7 +344,7 @@ void HandJesture::draw() {
     	ofSetColor(255, 255, 255);
 	
 	if (showConfigUI ==true ) {
-        //draw a black background for the gui
+        //draw a black background for the g ui
         ofBackground(0,0,0);	
 		kinect.drawDepth(400, 0, 400, 300);
 		gui.draw();
@@ -531,9 +537,14 @@ void HandJesture::keyPressed (int key)
 			showConfigUI = !showConfigUI;
 			if (showConfigUI) {
 				ofSetWindowShape(1024, 768);
+                //set the background sound to stop
+                background_sound.stop();
 			} else {
 				ofSetWindowShape(1024, 768);
+                //set the camera tilt
 				kinect.setCameraTiltAngle(angle);
+                //set the background sound to play
+                background_sound.play();
 			}
 			break;
         //show the corner user feedback screen

@@ -101,6 +101,8 @@ public:
     
     // sounds
 	ofSoundPlayer		soundClick;
+    ofSoundPlayer       beats;
+    ofSoundPlayer       background_sound;
 };
 
 #endif
