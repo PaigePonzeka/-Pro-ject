@@ -20,6 +20,8 @@ float RGB[] = {0.0f,128.0f,255.0f};//limit color options
 int checkMouseDownCount = 0;
 int cornerCount = 0;
 
+bool Currently_Grabbing_One_Shape = false;
+
 const int MOUSE_CLICK_FRAME = 8;
 const int HAND_MODE_NORMAL = 0;
 const int HAND_MODE_MOVE = 1;
@@ -597,10 +599,14 @@ void HandJesture::checkClick(int cornerCount) {
         printf("\n MOUSE DOWN \n \n");
 		handMode = HAND_MODE_CLICK;
 		//checkMouseDownCount = 0;
-		for( int s=0; s<10; s++){
-			if(!(Shape::board[s]->isGrabbed())&&(Shape::board[s]->hoveredOver(centroidX,centroidY)))
-			Shape::board[s]->grabShape();
-		}
+		if(!Currently_Grabbing_One_Shape)
+			for( int s=0; s<10; s++){
+				if(!(Shape::board[s]->isGrabbed())&&(Shape::board[s]->hoveredOver(centroidX,centroidY)))
+				{
+					Shape::board[s]->grabShape();
+					Currently_Grabbing_One_Shape = true;
+				}
+			}
 		return;
 	}
 	if (cornerNums > currentCornerNums + 150) {
@@ -611,6 +617,7 @@ void HandJesture::checkClick(int cornerCount) {
 			handMode = HAND_MODE_NORMAL;
 			for( int s=0; s<10; s++)
 				Shape::board[s]->releaseShape();
+			Currently_Grabbing_One_Shape = false;
 			return;
 		} else if (handMode == HAND_MODE_CLICK) {
 			//fireMouseClick();
@@ -618,6 +625,7 @@ void HandJesture::checkClick(int cornerCount) {
 			printf("\n MOUSE UP \n \n");
 			for( int s=0; s<10; s++)
 				Shape::board[s]->releaseShape();
+			Currently_Grabbing_One_Shape = false;
 			handMode = HAND_MODE_NORMAL;
 			return;
 		}
@@ -629,10 +637,14 @@ void HandJesture::checkClick(int cornerCount) {
              printf("\n MOUSE DOWN \n \n");
 			soundClick.play();
 			checkMouseDownCount = 0;
-			for( int s=0; s<10; s++){
-				if(!(Shape::board[s]->isGrabbed())&&(Shape::board[s]->hoveredOver(centroidX,centroidY)))
-					Shape::board[s]->grabShape();
-			}
+			if(!Currently_Grabbing_One_Shape)
+				for( int s=0; s<10; s++){
+					if(!(Shape::board[s]->isGrabbed())&&(Shape::board[s]->hoveredOver(centroidX,centroidY)))
+					{
+						Shape::board[s]->grabShape();
+						Currently_Grabbing_One_Shape = false;
+					}
+				}
 		}
 	}
 	return;
