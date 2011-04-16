@@ -13,7 +13,7 @@
     </SliderInt_Near_Distance>
     <SliderInt_Far_Distance>
         <name>Far Distance</name>
-        <value>30</value>
+        <value>48</value>
     </SliderInt_Far_Distance>
     <SliderInt_Display_Width>
         <name>Display Width</name>

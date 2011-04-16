@@ -57,10 +57,10 @@ void HandJesture::setup() {
     showUserFeedback=true;
     
     //intialize the background board sound
-    background_sound.loadSound("sound/background.mp3");
-    background_sound.setVolume(0.75f);
-	background_sound.setMultiPlay(true);
-    background_sound.setLoop(true);
+    HandJesture::background_sound.loadSound("sound/background.mp3");
+    HandJesture::background_sound.setVolume(0.75f);
+	HandJesture::background_sound.setMultiPlay(true);
+    HandJesture::background_sound.setLoop(true);
     	
 	// Setup Kinect
 	angle = 5;
@@ -339,8 +339,6 @@ void HandJesture::checkDepthUpdated(){
 
 //----------------------------------------------------------------------------------------------------------------
 void HandJesture::draw() {
-        
-
     	ofSetColor(255, 255, 255);
 	
 	if (showConfigUI ==true ) {
@@ -416,6 +414,8 @@ void HandJesture::draw() {
 				addCount++;
 				centroidX += contourFinder.blobs[i].pts[j].x;
 				centroidY += contourFinder.blobs[i].pts[j].y;
+                //check the speed of the hand movement
+                HandJesture::checkSpeedMove(centroidX, centroidY);
 			}
             /*These are the values */
 			centroidX = centroidX/addCount;
@@ -442,7 +442,8 @@ void HandJesture::draw() {
 			
             /*Gets a boolean value that indicates whether the hand has been made into a fist "clicked"*/
 			HandJesture::checkClick(cornerCount);
-			
+            
+            
             /*For test purposes only - print the location of the the X and Y location of each hand*/
     //      printf("Hand Location X: %f Y: %f \n", centroidX,centroidY);
             ofPopMatrix();
@@ -536,15 +537,16 @@ void HandJesture::keyPressed (int key)
 		case ' ':
 			showConfigUI = !showConfigUI;
 			if (showConfigUI) {
-				ofSetWindowShape(1024, 768);
+                //set the calibration window shape
+				ofSetWindowShape(800, 600);
                 //set the background sound to stop
-                background_sound.stop();
+                HandJesture::background_sound.stop();
 			} else {
 				ofSetWindowShape(1024, 768);
                 //set the camera tilt
 				kinect.setCameraTiltAngle(angle);
                 //set the background sound to play
-                background_sound.play();
+                HandJesture::background_sound.play();
 			}
 			break;
         //show the corner user feedback screen
@@ -634,6 +636,24 @@ void HandJesture::checkClick(int cornerCount) {
 	}
 	return;
 }
+/*Check The Speed of the hand movement*/
+void HandJesture::checkSpeedMove(float x, float y) {
+    float widthStep = ofGetWidth() / 3.0f;
+	if (x >= widthStep && x < widthStep*2){
+		background_sound.setSpeed( 0.5f + ((float)(ofGetHeight() - y) / (float)ofGetHeight())*1.0f);
+        printf("setting Background Beat Speed: %f",( 0.5f + ((float)(ofGetHeight() - y) / (float)ofGetHeight())*1.0f));
+	} 
+
+}
+/*void HandJesture::setBeatSpeed(int x, int y, int button){
+	// continuously control the speed of the beat sample via drag, 
+	// when in the "beat" region:
+	float widthStep = ofGetWidth() / 3.0f;
+	if (x >= widthStep && x < widthStep*2){
+		beats.setSpeed( 0.5f + ((float)(ofGetHeight() - y) / (float)ofGetHeight())*1.0f);
+	} 
+    
+}*/
 
 //--------------------------------------------------------------
 void HandJesture::mouseMoved(int x, int y)

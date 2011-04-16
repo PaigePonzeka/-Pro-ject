@@ -35,6 +35,7 @@ public:
 	void windowResized(int w, int h);
     
 	void checkClick(int cornerCount);
+    void checkSpeedMove(float x, float y);
     void drawPointCloud();
 	void drawHands();
 	void drawHandCircle();
@@ -103,6 +104,9 @@ public:
 	ofSoundPlayer		soundClick;
     ofSoundPlayer       beats;
     ofSoundPlayer       background_sound;
+    
+    vector<ofPoint>			posHistory;
+	vector<ofPoint>			adjustPosHistory;
 };
 
 #endif

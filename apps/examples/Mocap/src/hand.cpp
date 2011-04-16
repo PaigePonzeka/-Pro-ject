@@ -8,6 +8,7 @@
  */
 
 #include "hand.h"
+#include "handJesture.h"
 
 int mouseDownCount = 0;
 const int MOUSE_CLICK_FRAME = 8;
@@ -112,6 +113,12 @@ bool Hand::checkSpeedMove() {
 	for (int j = 0; j < posHistory.size()-1; j++) {
 		x += posHistory.at(j).x - posHistory.at(j+1).x;
 		y += posHistory.at(j).y - posHistory.at(j+1).y;
+        float widthStep = ofGetWidth() / 3.0f;
+        if (x >= widthStep && x < widthStep*2){
+           // beats.setSpeed( 0.5f + ((float)(ofGetHeight() - y) / (float)ofGetHeight())*1.0f);
+           // HandJesture::background_sound.setSpeed( 0.5f + ((float)(ofGetHeight() - y) / (float)ofGetHeight())*1.0f);
+        } 
+
 	}
 	
 	
