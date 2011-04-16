@@ -45,6 +45,8 @@ public:
 	void detectCorner();
 	void checkDepthUpdated();
 	void initShapeBoard();
+    
+    void printHandTrail();
 	
 	//static Shape* board[10];
     

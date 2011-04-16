@@ -7,7 +7,18 @@
  zmq::socket_t socket (context, ZMQ_PUB);
  */
 //--------------------------------------------------------------
+
+//array that stores the shapes on the board
 Shape* Shape::board[10];
+
+//An array of the last hand positions
+int HAND_TRAIL_SIZE = 20;
+ofPoint hand_trail_one[20];
+ofPoint hand_trail_two[20];
+int trail_one = 0;
+int trail_two = 0;
+
+
 //screen size
 int screen_width= 1024;
 int screen_height=768;
@@ -44,14 +55,15 @@ void HandJesture::initShapeBoard(){
 }
 
 void HandJesture::setup() {
-    soundClick.loadSound("sound/16582__tedthetrumpet__kettleswitch1.aif");
+       // printf("POINT TEST X: %f, Y: %f", test.x, test.y);
+    soundClick.loadSound("sound/4beat.mp3");
     soundClick.setVolume(100);
+    
 	ofSetLogLevel(0);
 	ofLog(OF_LOG_VERBOSE, "Start setup()");
     jestureFiredCount = 0;
 	toNormalModeCount = 0;
 	
-    
     debug = false;
 	showConfigUI = true;
 	mirror = true;
@@ -99,7 +111,6 @@ void HandJesture::setup() {
 	msgFont.loadFont("Courier New.ttf",14, true, true);
 	msgFont.setLineHeight(20.0f);
     
-   	
 	/*
      try {
      socket.bind ("tcp:*:14444");
@@ -114,10 +125,10 @@ void HandJesture::setup() {
      */
 	
 	// Sounds
-	soundDetect.loadSound("sound/16582__tedthetrumpet__kettleswitch1.aif");
-	soundDetect.setVolume(100);
-	soundRelease.loadSound("sound/2674__dmooney__TAPE32.wav");
-	soundRelease.setVolume(100);
+	//soundDetect.loadSound("sound/16582__tedthetrumpet__kettleswitch1.aif");
+	//soundDetect.setVolume(100);
+	//soundRelease.loadSound("sound/2674__dmooney__TAPE32.wav");
+	//soundRelease.setVolume(100);
 	
 	// setup config gui
 	/*set up infromation for the setup screen*/
@@ -245,8 +256,37 @@ void HandJesture::update() {
 	if (detectingHands && detectHands == 1) {
         
 		for (int i = 0; i < contourFinder.nBlobs; i++){
+            
+            
+            
 			int centerX = contourFinder.blobs[i].centroid.x;
 			int centerY = contourFinder.blobs[i].centroid.y;
+            
+            ofPoint hand_location;
+            hand_location.x=centerX;
+            hand_location.y=centerY;
+            //check for the for loop value 
+            if (i == 0)
+            {
+                if(trail_one >= HAND_TRAIL_SIZE)
+                {
+                    trail_one = 0;
+                }
+                hand_trail_one[trail_one]=hand_location;
+                trail_one++;
+                printf("Storing X: %f, Y: %f, at :%i \n",hand_location.x, hand_location.y, i);
+                
+            }
+            else if(i == 1)
+            {
+                if(trail_two >= HAND_TRAIL_SIZE)
+                {
+                    trail_two = 0;
+                }
+                hand_trail_two[trail_two]=hand_location;
+                trail_two++;
+                printf("Storing X: %f, Y: %f, at :%i \n ",hand_location.x, hand_location.y, i);
+                           }
             
 			// Apply lowpass filter
 			float x = centerX;
@@ -286,10 +326,6 @@ void HandJesture::update() {
              sendEvent("Move", ss.str());
              */
 		}
-	}
-	
-	if (detectingTwoHands) {
-		// scroll
 	}
 }
 
@@ -336,14 +372,29 @@ void HandJesture::checkDepthUpdated(){
 	}
 }
 
-
+/*runs a loop through each hand and prints the hand trail*/
+void HandJesture::printHandTrail()
+{
+    for(int i =0; i<trail_one; i++)
+    {
+        ofSetColor(0, 255, 0);
+        ofFill();
+        ofEllipse(hand_trail_one[i].x, hand_trail_one[i].y, 4, 4);
+    }
+    for(int k =0; k<trail_two; k++)
+    {
+        ofSetColor(0, 0, 255);
+        ofFill();
+        ofEllipse(hand_trail_two[k].x, hand_trail_two[k].y, 4, 4);
+    }
+}
 
 //----------------------------------------------------------------------------------------------------------------
 void HandJesture::draw() {
     	ofSetColor(255, 255, 255);
 	
 	if (showConfigUI ==true ) {
-        //draw a black background for the g ui
+        //draw a black background for the gui
         ofBackground(0,0,0);	
 		kinect.drawDepth(400, 0, 400, 300);
 		gui.draw();
@@ -353,6 +404,7 @@ void HandJesture::draw() {
 		ofPushMatrix();
 		ofTranslate(400, 300, 0);
 		glScalef(.6, .6, 1.0f); 
+        printHandTrail();
         for (int i = 0; i < contourFinder.nBlobs; i++){
             ofPushMatrix();
             contourFinder.blobs[i].draw(0,0);
@@ -415,6 +467,7 @@ void HandJesture::draw() {
 				addCount++;
 				centroidX += contourFinder.blobs[i].pts[j].x;
 				centroidY += contourFinder.blobs[i].pts[j].y;
+                
                 //check the speed of the hand movement
                 HandJesture::checkSpeedMove(centroidX, centroidY);
 			}
@@ -471,6 +524,8 @@ void HandJesture::drawShapes()
 	
 	for(int i = 0; i<10 ; i++)
 	{
+        //setting the colors to fill for the shape
+        //**removed the alpha channel settings here
 		ofSetColor(Shape::board[i]->getRed(), Shape::board[i]->getGreen(), Shape::board[i]->getBlue());
 		ofFill();
 		
@@ -540,12 +595,16 @@ void HandJesture::keyPressed (int key)
 			if (showConfigUI) {
                 //set the calibration window shape
 				ofSetWindowShape(800, 600);
+                
                 //set the background sound to stop
                 HandJesture::background_sound.stop();
+                
 			} else {
 				ofSetWindowShape(1024, 768);
+                
                 //set the camera tilt
 				kinect.setCameraTiltAngle(angle);
+                
                 //set the background sound to play
                 HandJesture::background_sound.play();
 			}
@@ -637,7 +696,8 @@ void HandJesture::checkClick(int cornerCount) {
 	}
 	return;
 }
-/*Check The Speed of the hand movement*/
+/*Check The Speed of the hand movement
+ And set the speed of the background beats*/
 void HandJesture::checkSpeedMove(float x, float y) {
     float slowest_beat_speed = .75;
     float fastest_beat_speed = 1.25;
