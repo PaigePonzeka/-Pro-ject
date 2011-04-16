@@ -1,7 +1,7 @@
 <controls>
     <SliderInt_Tilt_Angle>
         <name>Tilt Angle</name>
-        <value>29</value>
+        <value>22</value>
     </SliderInt_Tilt_Angle>
     <Toggle_Mirror_Mode>
         <name>Mirror Mode</name>
@@ -17,7 +17,7 @@
     </SliderInt_Far_Distance>
     <SliderInt_Display_Width>
         <name>Display Width</name>
-        <value>1960</value>
+        <value>1980</value>
     </SliderInt_Display_Width>
     <SliderInt_Display_height>
         <name>Display height</name>

@@ -29,12 +29,13 @@ const int POSITION_HISTORY_SIZE = 4;
 const int JESTURE_FIRE_BUFFER = 20;
 
 const int SHAPE_SIZE_MAX = 200;//only used for rand()% expr so keep them ints
-const int SHAPE_SIZE_MIN = 100;
+const int SHAPE_SIZE_MIN = 50;
 
 
 void HandJesture::initShapeBoard(){
 	for(int i = 0; i<10 ; i++){
 		
+        /*Edit the shape sizes to user ofrandom instead of rand... wasn't working*/
 		Shape::board[i] = new Shape(float(rand()%screen_width),float(rand()%screen_height),		//random location 
                                     float(ofRandom(SHAPE_SIZE_MIN, SHAPE_SIZE_MAX)),//random width 
 							 float(ofRandom(SHAPE_SIZE_MIN, SHAPE_SIZE_MAX)),			//random height
@@ -470,7 +471,7 @@ void HandJesture::drawShapes()
 	
 	for(int i = 0; i<10 ; i++)
 	{
-		ofSetColor(Shape::board[i]->getRed(), Shape::board[i]->getGreen(), Shape::board[i]->getBlue(),Shape::board[i]->getAlpha());
+		ofSetColor(Shape::board[i]->getRed(), Shape::board[i]->getGreen(), Shape::board[i]->getBlue());
 		ofFill();
 		
 		//move with the hand if its grabbed
@@ -493,7 +494,7 @@ void HandJesture::drawShapes()
 //Do on program exit
 void HandJesture::exit(){
 	kinect.close();
-	ofLog(OF_LOG_NOTICE, "Close Kinect and exit");
+	ofLog(OF_LOG_NOTICE, "Closing Kinect and Exiting");
 }
 
 
