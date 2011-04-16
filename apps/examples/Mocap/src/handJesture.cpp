@@ -57,7 +57,7 @@ void HandJesture::setup() {
     showUserFeedback=true;
     
     //intialize the background board sound
-    HandJesture::background_sound.loadSound("sound/background.mp3");
+    HandJesture::background_sound.loadSound("sound/1085.mp3");
     HandJesture::background_sound.setVolume(0.75f);
 	HandJesture::background_sound.setMultiPlay(true);
     HandJesture::background_sound.setLoop(true);
@@ -638,10 +638,23 @@ void HandJesture::checkClick(int cornerCount) {
 }
 /*Check The Speed of the hand movement*/
 void HandJesture::checkSpeedMove(float x, float y) {
+    float slowest_beat_speed = .75;
+    float fastest_beat_speed = 1.25;
     float widthStep = ofGetWidth() / 3.0f;
 	if (x >= widthStep && x < widthStep*2){
-		background_sound.setSpeed( 0.5f + ((float)(ofGetHeight() - y) / (float)ofGetHeight())*1.0f);
-        printf("setting Background Beat Speed: %f",( 0.5f + ((float)(ofGetHeight() - y) / (float)ofGetHeight())*1.0f));
+        float speed = 0.5f + ((float)(ofGetHeight() - y) / (float)ofGetHeight())*1.0f;
+        //make sure speed doesn't fall above or below a certain threshold
+        if(speed < slowest_beat_speed)
+        {
+            speed = slowest_beat_speed;
+        }
+        if(speed > fastest_beat_speed)
+        {
+            speed = fastest_beat_speed;
+        }
+
+		background_sound.setSpeed(speed);
+        printf("setting Background Beat Speed: %f",speed);
 	} 
 
 }
