@@ -595,10 +595,10 @@ void HandJesture::checkClick(int cornerCount) {
 		currentCornerNums = cornerNums;
         printf("\n MOUSE DOWN \n \n");
 		handMode = HAND_MODE_CLICK;
-		checkMouseDownCount = 0;
+		//checkMouseDownCount = 0;
 		for( int s=0; s<10; s++){
-			if(!(Shape::board[s]->isGrabbed())&&(Shape::board[s]->hoveredOver(centroidX,centroidY)))
-			Shape::board[s]->grabShape();
+		//	if(!(Shape::board[s]->isGrabbed())&&(Shape::board[s]->hoveredOver(centroidX,centroidY)))
+		//	Shape::board[s]->grabShape();
 		}
 		return;
 	}
@@ -606,23 +606,23 @@ void HandJesture::checkClick(int cornerCount) {
 		if (handMode == HAND_MODE_DRAG) {
 			//fireMouseUp();
              printf("\n MOUSE UP \n \n");
-			soundClick.play();
+		//	soundClick.play();
 			handMode = HAND_MODE_NORMAL;
-			for( int s=0; s<10; s++)
-				Shape::board[s]->releaseShape();
+		//	for( int s=0; s<10; s++)
+		//		Shape::board[s]->releaseShape();
 			return;
 		} else if (handMode == HAND_MODE_CLICK) {
 			//fireMouseClick();
 			soundClick.play();
 			printf("\n MOUSE UP \n \n");
-			for( int s=0; s<10; s++)
-				Shape::board[s]->releaseShape();
+		//	for( int s=0; s<10; s++)
+		//		Shape::board[s]->releaseShape();
 			handMode = HAND_MODE_NORMAL;
 			return;
 		}
 	}
 	if (handMode == HAND_MODE_CLICK) {
-		checkMouseDownCount++;
+		/*checkMouseDownCount++;
 		if (checkMouseDownCount > MOUSE_CLICK_FRAME) {
 			handMode = HAND_MODE_DRAG;
              printf("\n MOUSE DOWN \n \n");
@@ -632,7 +632,7 @@ void HandJesture::checkClick(int cornerCount) {
 				if(!(Shape::board[s]->isGrabbed())&&(Shape::board[s]->hoveredOver(centroidX,centroidY)))
 					Shape::board[s]->grabShape();
 			}
-		}
+		}*/
 	}
 	return;
 }
@@ -642,7 +642,7 @@ void HandJesture::checkSpeedMove(float x, float y) {
     float fastest_beat_speed = 1.25;
     float widthStep = ofGetWidth() / 3.0f;
 	if (x >= widthStep && x < widthStep*2){
-        float speed = 0.5f + ((float)(ofGetHeight() - y) / (float)ofGetHeight())*1.0f;
+        float speed = 0.5f + ((float)(ofGetHeight() - y) / (float)ofGetHeight())*0.75f;
         //make sure speed doesn't fall above or below a certain threshold
         if(speed < slowest_beat_speed)
         {

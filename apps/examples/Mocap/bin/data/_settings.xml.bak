@@ -17,10 +17,10 @@
     </SliderInt_Far_Distance>
     <SliderInt_Display_Width>
         <name>Display Width</name>
-        <value>1931</value>
+        <value>1960</value>
     </SliderInt_Display_Width>
     <SliderInt_Display_height>
         <name>Display height</name>
-        <value>800</value>
+        <value>1980</value>
     </SliderInt_Display_height>
 </controls>
