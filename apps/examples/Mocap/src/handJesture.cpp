@@ -29,15 +29,15 @@ const int POSITION_HISTORY_SIZE = 4;
 const int JESTURE_FIRE_BUFFER = 20;
 
 const int SHAPE_SIZE_MAX = 200;//only used for rand()% expr so keep them ints
-const int SHAPE_SIZE_MIN = 30;
+const int SHAPE_SIZE_MIN = 100;
 
 
 void HandJesture::initShapeBoard(){
 	for(int i = 0; i<10 ; i++){
 		
 		Shape::board[i] = new Shape(float(rand()%screen_width),float(rand()%screen_height),		//random location 
-							 float(rand()%(SHAPE_SIZE_MIN-SHAPE_SIZE_MAX) + 1),				//random width 
-							 float(rand()%(SHAPE_SIZE_MIN-SHAPE_SIZE_MAX) + +1),			//random height
+                                    float(ofRandom(SHAPE_SIZE_MIN, SHAPE_SIZE_MAX)),//random width 
+							 float(ofRandom(SHAPE_SIZE_MIN, SHAPE_SIZE_MAX)),			//random height
 							 RGB[rand()%3], RGB[rand()%3], RGB[rand()%3], float(rand()%255));//random color
 	}
 }
@@ -57,7 +57,7 @@ void HandJesture::setup() {
     showUserFeedback=true;
     
     //intialize the background board sound
-    HandJesture::background_sound.loadSound("sound/1085.mp3");
+    HandJesture::background_sound.loadSound("sound/beat.wav");
     HandJesture::background_sound.setVolume(0.75f);
 	HandJesture::background_sound.setMultiPlay(true);
     HandJesture::background_sound.setLoop(true);
@@ -84,7 +84,7 @@ void HandJesture::setup() {
 	checkGrayImage.allocate(kinect.width, kinect.height);
 	grayThresh.allocate(kinect.width, kinect.height);
 	
-	// For hand detection
+	// For hand detection *these values are set in calibration*
 	nearThreshold = 5;
 	farThreshold = 30;
 	detectCount = 0;
@@ -597,8 +597,8 @@ void HandJesture::checkClick(int cornerCount) {
 		handMode = HAND_MODE_CLICK;
 		//checkMouseDownCount = 0;
 		for( int s=0; s<10; s++){
-		//	if(!(Shape::board[s]->isGrabbed())&&(Shape::board[s]->hoveredOver(centroidX,centroidY)))
-		//	Shape::board[s]->grabShape();
+			if(!(Shape::board[s]->isGrabbed())&&(Shape::board[s]->hoveredOver(centroidX,centroidY)))
+			Shape::board[s]->grabShape();
 		}
 		return;
 	}
@@ -608,21 +608,21 @@ void HandJesture::checkClick(int cornerCount) {
              printf("\n MOUSE UP \n \n");
 		//	soundClick.play();
 			handMode = HAND_MODE_NORMAL;
-		//	for( int s=0; s<10; s++)
-		//		Shape::board[s]->releaseShape();
+			for( int s=0; s<10; s++)
+				Shape::board[s]->releaseShape();
 			return;
 		} else if (handMode == HAND_MODE_CLICK) {
 			//fireMouseClick();
 			soundClick.play();
 			printf("\n MOUSE UP \n \n");
-		//	for( int s=0; s<10; s++)
-		//		Shape::board[s]->releaseShape();
+			for( int s=0; s<10; s++)
+				Shape::board[s]->releaseShape();
 			handMode = HAND_MODE_NORMAL;
 			return;
 		}
 	}
 	if (handMode == HAND_MODE_CLICK) {
-		/*checkMouseDownCount++;
+		checkMouseDownCount++;
 		if (checkMouseDownCount > MOUSE_CLICK_FRAME) {
 			handMode = HAND_MODE_DRAG;
              printf("\n MOUSE DOWN \n \n");
@@ -632,7 +632,7 @@ void HandJesture::checkClick(int cornerCount) {
 				if(!(Shape::board[s]->isGrabbed())&&(Shape::board[s]->hoveredOver(centroidX,centroidY)))
 					Shape::board[s]->grabShape();
 			}
-		}*/
+		}
 	}
 	return;
 }
