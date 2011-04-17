@@ -357,23 +357,30 @@ void HandJesture::checkDepthUpdated(){
 /*runs a loop through each hand and prints the hand trail*/
 void HandJesture::printHandTrail()
 {
-    printf("Print Hand Trail\n\n");
     printf("TRAIL_ONE %i, \t TRAIL_TWO %i \n", trail_one, trail_two);
+    
+    //the set width for the circle trail behind the hand
     int trail_width = 7;
     for(int i =0; i<intial_trail_one; i++)
     {
         printf("Print Hand Trail!!!!: %i \n",i);
         ofSetColor(0, 255, 0);
-        ofFill();
+        ofNoFill(); 
         ofEllipse(hand_trail_one[i].x, hand_trail_one[i].y, trail_width, trail_width);
     }
     for(int k =0; k<intial_trail_two; k++)
     {
         printf("Print Hand Trail: %i \n",k);
         ofSetColor(0, 0, 255);
-        ofFill();
+       ofNoFill(); 
         ofEllipse(hand_trail_two[k].x, hand_trail_two[k].y, trail_width, trail_width);
     }
+}
+/*resets the hand trail values so they aren't printed anymore*/
+void HandJesture::resetHandTrail()
+{
+    intial_trail_one = 0;
+    intial_trail_two = 0;
 }
 
 //----------------------------------------------------------------------------------------------------------------
@@ -663,6 +670,10 @@ void HandJesture::storeHandTrail(int i, ofPoint hand_location)
         }
 
         printf("Storing X: %f, Y: %f, at :%i \n ",hand_location.x, hand_location.y, intial_trail_two);
+    }
+    if((intial_trail_one > HAND_TRAIL_SIZE) || (intial_trail_two > HAND_TRAIL_SIZE))
+    {
+        resetHandTrail();
     }
     
 

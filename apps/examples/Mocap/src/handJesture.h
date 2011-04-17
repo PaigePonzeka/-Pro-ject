@@ -36,6 +36,7 @@ public:
     
 	void checkClick(int cornerCount);
     void storeHandTrail(int i, ofPoint hand_location);
+    void resetHandTrail();
     void checkSpeedMove(float x, float y);
     void drawPointCloud();
 	void drawHands();
