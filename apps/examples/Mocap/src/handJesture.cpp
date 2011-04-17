@@ -251,13 +251,7 @@ void HandJesture::update() {
 			detectingTwoHands = true;
 			sendEvent("Register", "\"mode\":\"double\"");
             
-            /*Kinect Jesture keyboard events*/
-			//CGEventRef keyEv = CGEventCreateKeyboardEvent(NULL, (CGKeyCode)101, true);
-			//CGEventPost (kCGHIDEventTap, keyEv);
-			//CGEventRef keyEv2 = CGEventCreateKeyboardEvent(NULL, (CGKeyCode)101, false);
-			//CGEventPost (kCGHIDEventTap, keyEv2);
-            
-		}
+        }
 	}
 	
 	if (detectingHands && detectHands == 1) {
@@ -353,29 +347,70 @@ void HandJesture::checkDepthUpdated(){
 		checkGrayImage.setFromPixels(nextDepth, kinect.width, kinect.height);
 	}
 }
+//---------------------------Hand Trail Values--------------------------//
+/*Takes an int i (hand) and stores the hand_location point in the array*/
+void HandJesture::storeHandTrail(int i, ofPoint hand_location)
+{
+    //check for the for loop value 
+    if (i == 0)
+    {
+        if(trail_one >= HAND_TRAIL_SIZE)
+        {
+            trail_one = 0;
+            intial_trail_one = 20;
+        }
+        hand_trail_one[trail_one]=hand_location;
+        trail_one+=1;
+        intial_trail_one += 1;
+        if(intial_trail_one >= HAND_TRAIL_SIZE)
+        {
+            intial_trail_one = HAND_TRAIL_SIZE;
+        }
+        //printf("Storing X: %f, Y: %f, at :%i \n",hand_location.x, hand_location.y,intial_trail_two);
+    }
+    else if(i == 1)
+    {
+        if(trail_two >= HAND_TRAIL_SIZE)
+        {
+            trail_two = 0;
+            intial_trail_two = 20;
+        }
+        hand_trail_two[trail_two]=hand_location;
+        trail_two+=1;
+        intial_trail_two += 1;
+        if(intial_trail_two >= HAND_TRAIL_SIZE)
+        {
+            intial_trail_two = HAND_TRAIL_SIZE;
+        }
+        //printf("Storing X: %f, Y: %f, at :%i \n ",hand_location.x, hand_location.y, intial_trail_two);
+    }
+    if((intial_trail_one >= HAND_TRAIL_SIZE) || (intial_trail_two >= HAND_TRAIL_SIZE))
+    {
+        resetHandTrail();
+    }
+}
 
 /*runs a loop through each hand and prints the hand trail*/
 void HandJesture::printHandTrail()
 {
-    printf("TRAIL_ONE %i, \t TRAIL_TWO %i \n", trail_one, trail_two);
-    
     //the set width for the circle trail behind the hand
     int trail_width = 7;
     for(int i =0; i<intial_trail_one; i++)
     {
-        printf("Print Hand Trail!!!!: %i \n",i);
+       // printf("Print Hand Trail!!!!: %i \n",i);
         ofSetColor(0, 255, 0);
         ofNoFill(); 
         ofEllipse(hand_trail_one[i].x, hand_trail_one[i].y, trail_width, trail_width);
     }
     for(int k =0; k<intial_trail_two; k++)
     {
-        printf("Print Hand Trail: %i \n",k);
+        //printf("Print Hand Trail: %i \n",k);
         ofSetColor(0, 0, 255);
-       ofNoFill(); 
+        ofNoFill(); 
         ofEllipse(hand_trail_two[k].x, hand_trail_two[k].y, trail_width, trail_width);
     }
 }
+
 /*resets the hand trail values so they aren't printed anymore*/
 void HandJesture::resetHandTrail()
 {
@@ -430,9 +465,6 @@ void HandJesture::draw() {
         {
             grayImage.draw(screen_width-200, screen_height-150, 200, 150);
         }
-        
-
-        
 		//msgFont.drawString("Press Space Key to start.", 20, ofGetHeight()-60);
 		
 		ofPushMatrix();
@@ -448,10 +480,7 @@ void HandJesture::draw() {
             //set the hand centering dot color (red)
 			ofSetColor(255, 0 , 0);
             ofFill();
-            
-            //this prints an box around the found "hand" or blob
-            //ofEllipse(contourFinder.blobs[i].centroid.x, contourFinder.blobs[i].centroid.y, 4, 4);
-			
+           
 			 centroidX = 0;
 			 centroidY = 0;
             
@@ -478,9 +507,8 @@ void HandJesture::draw() {
 				prev_y = centroidY;
 			}
 			
-			//draw circle
-			ofCircle(centroidX, centroidY, 10);
-            
+			//draw circle at the location of the hand
+                //ofCircle(centroidX, centroidY, 10);
             
             ofPoint hand_location;
             hand_location.x=centroidX;
@@ -493,15 +521,12 @@ void HandJesture::draw() {
             
 			HandJesture::drawShapes();
 		
-			
 			prev_x = centroidX;
 			prev_y = centroidY;
 			
 			
-			
             /*Gets a boolean value that indicates whether the hand has been made into a fist "clicked"*/
 			HandJesture::checkClick(cornerCount);
-            
             
             /*For test purposes only - print the location of the the X and Y location of each hand*/
     //      printf("Hand Location X: %f Y: %f \n", centroidX,centroidY);
@@ -513,7 +538,7 @@ void HandJesture::draw() {
         
 	}
     //set the font color
-	ofSetColor(255, 255, 255);
+	ofSetColor(0, 0, 0);
     //print the videos frames per second
 	msgFont.drawString("fps: "+ ofToString(ofGetFrameRate()), 20, ofGetHeight()-40);
     
@@ -633,51 +658,6 @@ void HandJesture::keyPressed (int key)
 	}
 }
 //-----------------------------------------------------------------------
-
-void HandJesture::storeHandTrail(int i, ofPoint hand_location)
-{
-    //check for the for loop value 
-    if (i == 0)
-    {
-        if(trail_one >= HAND_TRAIL_SIZE)
-        {
-            trail_one = 0;
-            intial_trail_one = 20;
-        }
-        hand_trail_one[trail_one]=hand_location;
-        trail_one+=1;
-        intial_trail_one += 1;
-        if(intial_trail_one >= HAND_TRAIL_SIZE)
-        {
-            intial_trail_one = HAND_TRAIL_SIZE;
-        }
-        printf("Storing X: %f, Y: %f, at :%i \n",hand_location.x, hand_location.y,intial_trail_two);
-        
-    }
-    else if(i == 1)
-    {
-        if(trail_two >= HAND_TRAIL_SIZE)
-        {
-            trail_two = 0;
-            intial_trail_two = 20;
-        }
-        hand_trail_two[trail_two]=hand_location;
-        trail_two+=1;
-        intial_trail_two += 1;
-        if(intial_trail_two >= HAND_TRAIL_SIZE)
-        {
-            intial_trail_two = HAND_TRAIL_SIZE;
-        }
-
-        printf("Storing X: %f, Y: %f, at :%i \n ",hand_location.x, hand_location.y, intial_trail_two);
-    }
-    if((intial_trail_one > HAND_TRAIL_SIZE) || (intial_trail_two > HAND_TRAIL_SIZE))
-    {
-        resetHandTrail();
-    }
-    
-
-}
 /*Checks to see if the hand has been clicked*/
 void HandJesture::checkClick(int cornerCount) {
 	cornerCountHistory.push_back(cornerCount);
@@ -775,7 +755,7 @@ void HandJesture::checkSpeedMove(float x, float y) {
         }
 
 		background_sound.setSpeed(speed);
-        printf("setting Background Beat Speed: %f",speed);
+        //printf("setting Background Beat Speed: %f \n",speed);
 	} 
 
 }
