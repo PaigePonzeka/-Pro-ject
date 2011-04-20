@@ -11,6 +11,12 @@ class Shape{
 public:
 	
 	static Shape* board[10];
+	struct CIRCLE{
+		float x;
+		float y;
+		float alpha;
+	};
+	struct CIRCLE* bubbles[10];
 	
 	Shape();
 	Shape(float init_location_x,float init_location_y,float init_height, float init_width,  
@@ -28,14 +34,22 @@ public:
 	
 	void move();
 	void checkCollision(int index);
-	void grabShape();
-	void releaseShape();
+	void grabShape(int hand);
+	void releaseShapeFrom(int hand);
 	bool isGrabbed();
+	bool isGrabbedBy(int hand);
 	bool hoveredOver(float x, float y);
 	void slow();
+	void collision_Bounce(int i);
+	void collision_AntiMagnet(float x, float y);
+	bool notMoving();
+	void velocityCeiling();
+	void createExplosion();
 	
-	
+	bool explosion();
 	void setVelocity(float vel_x, float vel_y);
+	float getVelocity_y();
+	float getVelocity_x();
 	void setColor(float R, float G, float B, float A);
 	void setLocation(float x, float y);
 
@@ -53,6 +67,8 @@ private:
 	float velocity_x;
 	float velocity_y;
 	bool grabbed;
+	bool exploding;
+	int grabbed_by;
 	struct COLOR{
 		float red;
 		float green;
@@ -60,5 +76,6 @@ private:
 		float alpha;
 	};
 	struct COLOR shape_color;
+	
 };
 

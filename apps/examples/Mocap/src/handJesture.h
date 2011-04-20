@@ -34,14 +34,14 @@ public:
 	void mouseReleased(int x, int y, int button);
 	void windowResized(int w, int h);
     
-	void checkClick(int cornerCount);
+	void checkClick(int cornerCount,int hand);
     void storeHandTrail(int i, ofPoint hand_location);
     void resetHandTrail();
     void checkSpeedMove(float x, float y);
     void drawPointCloud();
 	void drawHands();
 	void drawHandCircle();
-    void drawShapes();
+    void drawShapes(int hand);
 	void drawBackground();
 	void sendEvent(const std::string& event, const std::string& data);
 	void detectCorner();
