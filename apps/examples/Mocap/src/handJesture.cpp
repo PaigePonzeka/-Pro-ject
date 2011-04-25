@@ -28,7 +28,7 @@ float centroidX;//hand location
 float centroidY;
 float prev_x = 0.0f;//previous location for velocity calc
 float prev_y = 0.0f;
-float RGB[] = {0.0f,128.0f,255.0f};//limit color options
+float RGB2[] = {0.0f,128.0f,255.0f};//limit color options
 
 int checkMouseDownCount = 0;
 int cornerCount = 0;
@@ -52,10 +52,15 @@ void HandJesture::initShapeBoard(){
 		
         /*Edit the shape sizes to user ofrandom instead of rand... wasn't working*/
 		Shape::board[i] = new Shape(
-									float(ofRandom(0.0f,screen_width-100)),float(ofRandom(0.0f,screen_height-100)),		//random location 
-                                    float(ofRandom(SHAPE_SIZE_MIN, SHAPE_SIZE_MAX)),//random width 
-							 float(ofRandom(SHAPE_SIZE_MIN, SHAPE_SIZE_MAX)),			//random height
-							 RGB[rand()%3], RGB[rand()%3], RGB[rand()%3], float(ofRandom(0.0f, 255.0f)));//random color
+									float(ofRandom(0.0f,screen_width-SHAPE_SIZE_MAX)),float(ofRandom(0.0f,screen_height-SHAPE_SIZE_MAX)),		//random location 
+                                    float(ofRandom(SHAPE_SIZE_MIN, SHAPE_SIZE_MAX)),									//random width 
+							 float(ofRandom(SHAPE_SIZE_MIN, SHAPE_SIZE_MAX)),											//random height
+							 RGB2[rand()%3], RGB2[rand()%3], RGB2[rand()%3], float(ofRandom(0.0f, 255.0f)));				//random color
+		printf("loc [%i] (%f ,%f)\n",i,Shape::board[i]->getLocation_x(),Shape::board[i]->getLocation_y());
+		while(Shape::board[i]->locationError(i,false)){
+			Shape::board[i]->setLocation(float(ofRandom(0.0f,screen_width-SHAPE_SIZE_MAX)), float(ofRandom(0.0f,screen_height-SHAPE_SIZE_MAX)));
+			printf("error [%i] new loc (%f ,%f)\n",i,Shape::board[i]->getLocation_x(),Shape::board[i]->getLocation_y());
+		}
 	}
 }
 
@@ -241,7 +246,7 @@ void HandJesture::update() {
     
 	//ofLog(OF_LOG_VERBOSE, ofToString(detectTwoHandsCount));
 	if (detectingTwoHands) {
-		ofLog(OF_LOG_VERBOSE, "detecTwo");
+		//ofLog(OF_LOG_VERBOSE, "detecTwo");
 		if (detectTwoHandsCount < 15) {
 			detectingTwoHands = false;
 			sendEvent("Register", "\"mode\":\"double\"");
@@ -548,40 +553,68 @@ void HandJesture::draw() {
 	ofNoFill();
 }
 //-----------------------------------------------------------------------------------
-/*print all the shape objects */
+/*
+ *print all the shape objects after checking interaction
+ */
 void HandJesture::drawShapes(int hand)
-{
-    //for every shape in the static shape array
-        //generate a random colom (from an array of colors)
-        //draw the shape to the screen
-	
+{	
 	for(int i = 0; i<10 ; i++)
 	{
         //setting the colors to fill for the shape
-        //**removed the alpha channel settings here
 		ofSetColor(Shape::board[i]->getRed(), Shape::board[i]->getGreen(), Shape::board[i]->getBlue());
 		ofFill();
-		if(Shape::board[i]->hoveredOver(centroidX, centroidY)){
-			Shape::board[i]->collision_AntiMagnet(centroidX, centroidY);
-		}
-		//move with the hand if its grabbed
-	/*	if((Shape::board[i]->isGrabbedBy(hand))) 
-		{
-			Shape::board[i]->setLocation(centroidX-(Shape::board[i]->getWidth()/2), centroidY-(Shape::board[i]->getHeight()/2));
-			Shape::board[i]->setVelocity(centroidX-prev_x+1, centroidY-prev_y+1);
-			Shape::board[i]->checkCollision(i);
-		}*/
 		
+		//hand-shape interaction
+		if(Shape::board[i]->hoveredOver(centroidX, centroidY)){
+			/*Shape::board[i]->createExplosion();/*/Shape::board[i]->collision_AntiMagnet(centroidX, centroidY);
+		}
+		
+		//shape-shape interaction
 		Shape::board[i]->move();
 		Shape::board[i]->checkCollision(i);
+		Shape::board[i]->updateTrail();
+
+		//error checking
+		Shape::board[i]->checkDamage();
+		if(Shape::board[i]->locationError(10,true)) 
+			printf("shape location error [%i] (%f, %f)\n",i,Shape::board[i]->getLocation_x(),Shape::board[i]->getLocation_y());
+
+		//friction physics
 		Shape::board[i]->slow();
-		if(Shape::board[i]->explosion()){
 		
-		
+		//explosion process
+		if(Shape::board[i]->isExploding())
+		{
+			for(int j = 0; j<10 ;j++){
+				ofSetColor(Shape::board[i]->getRed(), Shape::board[i]->getGreen(), Shape::board[i]->getBlue(),
+						   Shape::board[i]->bubbles[j]->alpha);
+				ofCircle(Shape::board[i]->bubbles[j]->x, Shape::board[i]->bubbles[j]->y, Shape::board[i]->bubbles[j]->size);
+			}
+			if(Shape::board[i]->popBubbles())Shape::board[i]->doneExploding();
 		}
-		
+		else
+		{
+		//draw the shape
 		ofRect(Shape::board[i]->getLocation_x(),Shape::board[i]->getLocation_y(),
 			   Shape::board[i]->getWidth(), Shape::board[i]->getHeight());
+		}	
+		//draw the tail
+		int t =Shape::board[i]->index();
+		float alpha = 0;
+		do{
+			alpha += 10;
+			if(t>0)t--;
+			else t = 9;
+			ofSetColor(Shape::board[i]->getRed(), Shape::board[i]->getGreen(), Shape::board[i]->getBlue(),
+					   alpha);
+			ofRect(Shape::board[i]->trail[t]->x,Shape::board[i]->trail[t]->y,
+				   Shape::board[i]->getWidth(), Shape::board[i]->getHeight());
+			
+		}while( t != Shape::board[i]->index());
+		
+		//write number of the square on the screen (just for testing but what do you think?)
+		ofSetColor(0, 0, 0);
+		msgFont.drawString("" + ofToString(i, 0),Shape::board[i]->getLocation_x(),Shape::board[i]->getLocation_y());
 	}
 }
 //-------------------------------------------------------------
